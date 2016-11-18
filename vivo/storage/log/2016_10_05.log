@@ -1,0 +1,17 @@
+[ 2016-10-05T10:27:59+08:00 ]EXCEPTION: SELECT * FROM commodity commodity INNER JOIN about_commodity about_commodity ON = about_commodity_commodity_id  WHERE commodity_id = ?     ;BindParams:array (
+  1 => 4,
+)42000;1064;Erreur de syntaxe près de '= about_commodity_commodity_id  WHERE commodity_id = 4' à la ligne 1
+[ 2016-10-05T10:47:37+08:00 ]EXCEPTION: Method web\admin\controller\Commodity::__empty() does not exist
+[ 2016-10-05T10:47:52+08:00 ]EXCEPTION: Method web\admin\controller\Commodity::__empty() does not exist
+[ 2016-10-05T10:48:14+08:00 ]EXCEPTION: Method web\admin\controller\Commodity::__empty() does not exist
+[ 2016-10-05T10:59:34+08:00 ]EXCEPTION: Method web\admin\controller\Commodity::__empty() does not exist
+[ 2016-10-05T14:46:27+08:00 ]EXCEPTION: Method web\admin\controller\Commodity::__empty() does not exist
+[ 2016-10-05T14:51:12+08:00 ]EXCEPTION: Method web\admin\controller\Brands::__empty() does not exist
+[ 2016-10-05T14:51:28+08:00 ]EXCEPTION: Method web\admin\controller\Brands::__empty() does not exist
+[ 2016-10-05T14:51:43+08:00 ]EXCEPTION: Method web\admin\controller\Brands::__empty() does not exist
+[ 2016-10-05T14:52:15+08:00 ]EXCEPTION: Method web\admin\controller\Brands::__empty() does not exist
+[ 2016-10-05T14:52:16+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/
+[ 2016-10-05T14:52:35+08:00 ]EXCEPTION: Method web\admin\controller\Brands::__empty() does not exist
+[ 2016-10-05T14:52:36+08:00 ]EXCEPTION: Method web\admin\controller\Brands::__empty() does not exist
+[ 2016-10-05T14:52:39+08:00 ]EXCEPTION: Method web\admin\controller\Brands::__empty() does not exist
+[ 2016-10-05T14:53:03+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/

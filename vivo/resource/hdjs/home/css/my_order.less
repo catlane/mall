@@ -1,0 +1,210 @@
+.c{
+    float: left;
+    width: 907px;
+    padding: 0 30px 30px;
+    min-height: 530px;
+    color: #666;
+    background: #fff;
+    .member-order-list{
+        dt{
+            height: 60px;
+            line-height: 70px;
+            font-size: 18px;
+            color: #000;
+            border-bottom: 2px solid #f1f1f1;
+        }
+        dd{
+            color: #333;
+            .statistic-tags{
+                margin: 30px 0 15px;
+                overflow: hidden;
+                li{
+                    &:last-of-type{
+                        border: 0;
+                    }
+                    float: left;
+                    padding-right: 15px;
+                    margin-right: 15px;
+                    height: 25px;
+                    font-size: 16px;
+                    line-height: 25px;
+                    border-right: 1px solid #dfdfdf;
+                    a{
+                        color: #333;
+                    }
+                }
+                .on a{
+                    color: #008cd6;
+                }
+            }
+            .list-caption{
+                margin: 20px 0;
+                height: 42px;
+                border: 1px solid #dbf0fb;
+                background-color: #edf9ff;
+                .col{
+                    float: left;
+                    text-align: center;
+                    font-size: 14px;
+                    color: #666;
+                    line-height: 42px;
+                }
+                .col10{
+                    width: 479px;
+                }
+                .col11{
+                    width: 66px;
+                }
+                .col12{
+                    width: 108px;
+                }
+                .col13{
+                    width: 108px;
+                }
+                .col14{
+                    width: 143px;
+                }
+            }
+            .order-table{
+                width: 100%;
+                table-layout: fixed;
+                margin-top: 20px;
+                width: 100%;
+                color: #666;
+                border: 1px solid #e3e3e3;
+                text-align: center;
+                vertical-align: middle;
+                word-wrap: break-word;
+                border-collapse: collapse;
+                border-spacing: 0;
+                td{
+                    border-right: 1px solid #e3e3e3;
+                    border-top: 1px solid #e3e3e3;
+                }
+                th{
+                    height: 44px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #666;
+                    background-color: #fafafa;
+                    text-align: left;
+                    li.order-number{
+                        margin-left: 25px;
+                        float: left;
+                        line-height: 25px;
+                        a{
+                            color: #008cd7;
+                        } 
+                    }
+                    li.order-time{
+                        float: left;
+                        padding: 0;
+                        line-height: 25px;
+                        margin-left: 40px;
+                    }
+                }
+                .prod-line{//tr
+                    td{
+                        border-right: 0;
+                    }
+                    .prod-pic{//td
+                        border-right: 0;
+                        img{
+                            width: 120px;
+                            height: 120px;
+                            margin: 10px 0;
+                        }
+                    }
+                    .prod-name{
+                        border-right: 0;
+                        text-align: left;
+                        height: 70px;
+                        a{
+                            display: inline-block;
+                            width: 100%;
+                            color: #333;
+                            white-space: nowrap;
+                            transition: .3s;
+                            &:hover{
+                                color: #008cd7;
+                            }
+                        }
+                    }
+                    .status{
+                        border-left: 1px solid #e3e3e3;
+                        border-right: 0;
+                    }
+                    .operation{
+                        border-left: 1px solid #e3e3e3;
+                        border-right: 0;
+                        a{
+                            color: #008cd7;
+                        }
+                    }
+                }
+                .attach-table{
+                    //这是tr中的一个表格
+                    width: 100%;
+                    table-layout: fixed;
+                    text-align: center;
+                    vertical-align: top;
+                    word-wrap: break-word;
+                    a{
+                        &:hover{
+                            color: #008cd7;
+                        }
+                    }
+                    td{
+                        height: 45px;
+                        border: 0;
+                    }
+                    .gift{//这是第一行
+                        .title{
+                            padding-left: 0;
+                            text-align: left;
+                        }
+                        .name{
+                            text-align: left;
+                            position: relative;
+                            word-wrap: normal\9;
+                            .figure{
+                                float: left;
+                                width: 25px;
+                                height: 25px;
+                                margin-right: 5px;
+                                overflow: hidden;
+                                vertical-align: middle;
+                                border: 1px solid #e3e3e3;
+                                img{
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+                            p{
+                                margin-left: 30px;
+                                color: #666;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                }
+                .operation-line{
+                    td{
+                        height: 58px;
+                        padding: 0 10px;
+                        vertical-align: middle;
+                        text-align: right;
+                        font-size: 16px;
+                        color: #666;
+                        .red{
+                            color: #f04141!important;
+                        }
+                        dfn{
+                            font-style: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,129 @@
+.c {
+  color: #333;
+  text-align: justify;
+}
+.c .c-title {
+  height: 60px;
+  line-height: 70px;
+  font-size: 18px;
+  color: #000;
+  border-bottom: 2px solid #f1f1f1;
+}
+.c .c-title h1 {
+  float: left;
+  color: #333;
+  font-size: 18px;
+}
+.c dl {
+  margin: 0 60px 50px;
+}
+.c h2,
+.c h3 {
+  color: #008cd6;
+  text-align: center;
+}
+.c h2 {
+  font-size: 28px;
+  padding: 43px 0 25px;
+}
+.c h3 {
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+.c th,
+.c td {
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid #c3e7fd;
+}
+.c th p,
+.c td p {
+  display: inline-block;
+  color: #333;
+  text-align: justify;
+}
+.c .sanbao-details li {
+  padding: 0 0 30px 30px;
+  font-size: 15px;
+  background: 0 5px no-repeat url("https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/list-style-image_8338f68.png");
+}
+.c .sanbao-details table {
+  width: 838px;
+  margin: 15px 0 10px -30px;
+}
+.c .sanbao-details .not-empty {
+  width: 260px;
+  padding: 30px 0;
+}
+.c .sanbao-details .not-empty p {
+  margin: 0 20px;
+  font-size: 14px;
+}
+.c .sanbao-details .empty {
+  width: 10px;
+  border: 0;
+}
+.c .maintain-declare {
+  font-size: 15px;
+}
+.c .maintain-declare table {
+  margin: 15px 0 9px;
+}
+.c .maintain-declare td {
+  width: 25%;
+  height: 80px;
+  padding: 25px 15px 10px;
+}
+.c .maintain-declare li {
+  padding-left: 15px;
+  line-height: 34px;
+  background: 0 14px no-repeat url("https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/list-style-image2_ad73cab.png");
+}
+.c .announcements {
+  font-size: 15px;
+}
+.c .announcements td {
+  width: 50%;
+  height: 70px;
+  padding: 30px 40px;
+}
+.c .performance-table th,
+.c .performance-table td {
+  color: #666;
+  vertical-align: middle;
+}
+.c .performance-table th {
+  font-weight: 400;
+  background-color: #e5f5ff;
+}
+.c .performance-table thead th {
+  color: #008cd6;
+  font-size: 18px;
+  height: 60px;
+}
+.c .performance-table tbody th {
+  width: 200px;
+}
+.c .performance-table td {
+  padding: 22px 40px;
+  text-align: justify;
+}
+.c .warm-prompt h3 {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.c .warm-prompt table {
+  margin-top: 18px;
+}
+.c .warm-prompt table p {
+  font-size: 13px;
+}
+.c .warm-prompt td {
+  width: 25%;
+  padding: 15px;
+  line-height: 25px;
+}
+.c .warm-prompt .link {
+  word-break: break-all;
+}
+/*# sourceMappingURL=servicePromise.css.map */

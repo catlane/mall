@@ -1,0 +1,66 @@
+.main {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.main .content {
+  width: 100%;
+  min-width: 1200px;
+  height: auto;
+  overflow: hidden;
+}
+.main .content .banner {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+.main .content .banner .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.main .content .banner .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  overflow: hidden;
+}
+.main .content .recommend {
+  min-width: 1200px;
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.main .content .recommend div.once {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.main .content .recommend div.once div {
+  width: 1920px;
+  position: relative;
+  margin-left: 50%;
+  left: -300px;
+  margin: 0 auto;
+  margin-bottom: -5px;
+}
+.main .content .recommend div.once div img {
+  margin: 0 auto;
+  min-height: 200px;
+}
+/*# sourceMappingURL=index.css.map */

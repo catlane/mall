@@ -1,0 +1,127 @@
+.c {
+  float: left;
+  width: 907px;
+  padding: 0 30px 30px;
+  min-height: 530px;
+  color: #666;
+  background: #fff;
+}
+.c dt.module-item {
+  padding-top: 50px;
+}
+.c dt.module-item h1.welcome-info {
+  font-size: 21px;
+  line-height: 21px;
+  color: #333;
+}
+.c dt.module-item h1.welcome-info span {
+  color: #000;
+}
+.c dt.module-item ul.mem-properties {
+  overflow: hidden;
+}
+.c dt.module-item ul.mem-properties li {
+  margin-right: 60px;
+  height: 46px;
+  line-height: 46px;
+  float: left;
+  font-size: 14px;
+  color: #666;
+}
+.c dt.module-item ul.mem-properties li a {
+  color: #008cd7;
+}
+.c dt.module-item ul.mem-properties li a span {
+  color: #f04141 !important;
+}
+.c dt.module-item ul.mem-properties li.login-time {
+  color: #b0b0b0;
+}
+.c dt.module-item div.statistic-list {
+  margin-top: 25px;
+  padding: 30px 0;
+  clear: left;
+  overflow: hidden;
+  border-top: 1px solid #eee;
+}
+.c dt.module-item div.statistic-list li.item {
+  float: left;
+  width: 20%;
+  height: 56px;
+  padding-left: 65px;
+  line-height: 50px;
+  font-size: 16px;
+  background: url(../other/my/icons-overview_912078d.png) no-repeat;
+}
+.c dt.module-item div.statistic-list li.item a {
+  font-size: 24px;
+  margin-left: 10px;
+  color: #008cd7;
+}
+.c dt.module-item div.statistic-list li.item a:hover {
+  color: #535353;
+}
+.c dt.module-item div.statistic-list li.evaluation {
+  background-position: 0 -64px;
+}
+.c dt.module-item div.statistic-list li.coupon {
+  background-position: 0 -127px;
+}
+.c dt.module-item div.page-module {
+  margin-bottom: 30px;
+}
+.c dt.module-item div.page-module h2.title {
+  font-size: 16px;
+  color: #333;
+  line-height: 45px;
+}
+.c dt.module-item div.page-module table.order-table {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  table-layout: fixed;
+  text-align: center;
+  vertical-align: middle;
+  word-wrap: break-word;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.c dt.module-item div.page-module table.order-table th {
+  height: 44px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+  background-color: #fafafa;
+}
+.c dt.module-item div.page-module table.order-table td {
+  padding: 20px 5px;
+  border-top: 1px solid #e3e3e3;
+  color: #666;
+}
+.c dt.module-item div.page-module table.order-table td a {
+  color: #008cd7;
+}
+.c dt.module-item div.page-module table.order-table td a:hover {
+  color: #535353;
+}
+.c dt.module-item div.page-module ul.recent-views {
+  margin-right: -33px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.c dt.module-item div.page-module ul.recent-views li {
+  margin-bottom: 10px;
+  margin-right: 20px;
+  float: left;
+}
+.c dt.module-item div.page-module ul.recent-views li img {
+  width: 210px;
+  height: 210px;
+  border: 1px solid #e3e3e3;
+}
+.c dt.module-item div.page-module ul.recent-views li p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #363636;
+}
+/*# sourceMappingURL=my_index.css.map */

@@ -1,0 +1,42 @@
+.icon-huabei{display:inline-block;width:19px;height:19px;vertical-align:text-bottom;margin-right:2px;background:url(https://swsdl.vivo.com.cn/vivoshop/web/dist/img/prod/icon-huabei-new_4211459.png) no-repeat}.order-overview .btn-confirm{width:100px;height:37px;border-radius:3px;font-size:16px;float:right;margin-left:10px}.order-closed{padding:40px 0 20px;position:relative}.order-closed>img{position:absolute}.order-closed h2{margin-left:50px;height:35px;line-height:35px;color:#333;font-size:20px}.order-closed p{margin-left:50px;margin-top:20px;color:#999}.progress-bar .bar-box{height:53px;background:url(https://swsdl.vivo.com.cn/vivoshop/web/dist/img/member/order-progress_2d5132b.png) no-repeat}.normal .step1 .bar-box{background-position:0 1px}.normal .step2 .bar-box{background-position:0 -107px}.normal .step3 .bar-box{background-position:0 -218px}.normal .step4 .bar-box{background-position:0 -329px}.normal .step5 .bar-box{background-position:0 -437px}.cod .step1 .bar-box{background-position:0 -639px}.cod .step2 .bar-box{background-position:0 -743px}.cod .step3 .bar-box{background-position:0 -848px}.cod .step4 .bar-box{background-position:0 bottom}.delivery-records{margin-top:35px}.delivery-records li{height:30px;line-height:30px;font-size:14px;color:#999}.delivery-records label{margin-right:30px}.order-module{padding:15px 0;border-bottom:1px solid #e3e3d3}.order-module>.title{line-height:30px;margin-bottom:5px;font-size:16px;color:#333}.order-module>ul li{line-height:30px;font-size:14px;color:#666}.operation-box{float:right;margin-top:-35px;line-height:37px}.prod-list{border:0;margin-top:20px}.prod-list .order-table{margin-top:10px}.order-table td{border-right:0}.order-info-box{padding:20px 15px;border:1px solid #e3e3e3;border-top:0}.left-box>ul>li{margin-bottom:5px}.order-info-box .info-box{float:left;width:400px;font-size:14px;color:#666;word-break:break-all}.order-info-box .info-box>label{line-height:0}.order-remark i{background-position:0 -31px}.order-remark .tta-order-remark{width:513px;vertical-align:top}.order-info-box .right-box{font-size:16px;color:#666}.order-info-box .right-box .order-sum{height:30px;line-height:30px;text-align:right}.order-info-box .right-box label{display:inline-block;width:100px;text-align:right}
+button,a{
+    cursor: pointer;
+    transition: .3s;
+}
+.c {
+    float: left;
+    width: 907px;
+    padding: 0 30px 30px;
+    min-height: 530px;
+    color: #666;
+    background: #fff;
+}
+.c a {
+    color: #008cd7;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0 none;
+}
+.c a:hover{
+    color: #535353;
+    text-decoration: none;
+}
+.red{
+    color: #f04141!important;
+}
+.order-overview .btn-confirm {
+    width: 160px;
+    height: 37px;
+    border-radius: 3px;
+    font-size: 16px;
+    float: right;
+    margin-left: 10px;
+}
+.btn-confirm {
+    background-color: #ed4346;
+    color: #fff;
+    border: 1px solid #ed4346;
+}
+.btn-confirm:hover{
+    background: #ED100B;
+}

@@ -1,0 +1,4 @@
+[ 2016-10-12T20:55:16+08:00 ]EXCEPTION: Method web\home\controller\Login::__empty() does not exist
+[ 2016-10-12T20:55:52+08:00 ]EXCEPTION: Method web\home\controller\Login::__empty() does not exist
+[ 2016-10-12T22:44:59+08:00 ]EXCEPTION: Method web\home\controller\My::__empty() does not exist
+[ 2016-10-12T22:45:07+08:00 ]EXCEPTION: Method web\home\controller\My::__empty() does not exist

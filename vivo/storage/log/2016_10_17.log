@@ -1,0 +1,31 @@
+[ 2016-10-17T00:24:56+08:00 ]EXCEPTION: web\home\controller\Home 不存在
+[ 2016-10-17T00:25:01+08:00 ]EXCEPTION: Method web\home\controller\Entry::__empty() does not exist
+[ 2016-10-17T01:22:07+08:00 ]EXCEPTION: 没有数据用于插入,请检查字段名
+[ 2016-10-17T01:23:48+08:00 ]EXCEPTION: 没有数据用于插入,请检查字段名
+[ 2016-10-17T03:17:13+08:00 ]EXCEPTION: Method web\home\controller\Product::__empty() does not exist
+[ 2016-10-17T03:17:18+08:00 ]EXCEPTION: Method web\home\controller\Product::__empty() does not exist
+[ 2016-10-17T03:17:37+08:00 ]EXCEPTION: Method web\home\controller\Product::__empty() does not exist
+[ 2016-10-17T03:18:23+08:00 ]EXCEPTION: Method web\home\controller\Product::__empty() does not exist
+[ 2016-10-17T03:55:28+08:00 ]EXCEPTION: Method web\home\controller\Product::__empty() does not exist
+[ 2016-10-17T03:58:26+08:00 ]EXCEPTION: 模板不存在:./web/home/view/
+[ 2016-10-17T03:58:39+08:00 ]EXCEPTION: 模板不存在:./web/home/view/__empty.php
+[ 2016-10-17T04:05:58+08:00 ]EXCEPTION: web\home\controller\123 不存在
+[ 2016-10-17T04:07:17+08:00 ]EXCEPTION: web\home\controller\123 不存在
+[ 2016-10-17T04:07:57+08:00 ]EXCEPTION: web\home\controller\13 不存在
+[ 2016-10-17T04:09:13+08:00 ]EXCEPTION: Class web\home\controller\13 does not exist
+[ 2016-10-17T04:09:40+08:00 ]EXCEPTION: 模板不存在:./web/home/view/
+[ 2016-10-17T04:10:04+08:00 ]EXCEPTION: 模板不存在:./web/13/view/common/__empty.php
+[ 2016-10-17T04:12:03+08:00 ]EXCEPTION: Class web\13\controller\13 does not exist
+[ 2016-10-17T11:51:02+08:00 ]EXCEPTION: SELECT * FROM orderformlist orderformlist INNER JOIN commodity commodity ON commodity_commodity_id commodity_id  WHERE orderForm_orderForm_id = ?     ;BindParams:array (
+  1 => '1',
+)42000;1064;Erreur de syntaxe près de 'commodity_id  WHERE orderForm_orderForm_id = '1'' à la ligne 1
+[ 2016-10-17T14:52:21+08:00 ]EXCEPTION: INSERT INTO returns (`returns_orderForm_id`,`returns_status`,`returns_time`) VALUES(?,?,?) ;BindParams:array (
+  1 => '19',
+  2 => NULL,
+  3 => 1476687141,
+)23000;1048;Le champ 'returns_status' ne peut être vide (null)
+[ 2016-10-17T14:52:29+08:00 ]EXCEPTION: INSERT INTO returns (`returns_orderForm_id`,`returns_status`,`returns_time`) VALUES(?,?,?) ;BindParams:array (
+  1 => '19',
+  2 => NULL,
+  3 => 1476687149,
+)23000;1048;Le champ 'returns_status' ne peut être vide (null)

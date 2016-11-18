@@ -1,0 +1,77 @@
+.c {
+  float: left;
+  width: 907px;
+  padding: 0 30px 30px;
+  min-height: 530px;
+  color: #666;
+  background: #fff;
+}
+.c dl.member-order-list dt.module-title {
+  height: 60px;
+  line-height: 70px;
+  font-size: 18px;
+  color: #000;
+  border-bottom: 2px solid #f1f1f1;
+}
+.c dl.member-order-list dd.module-item {
+  color: #333;
+}
+.c dl.member-order-list dd.module-item table.form-table {
+  width: 100%;
+  table-layout: fixed;
+  margin: 30px 0 50px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.c dl.member-order-list dd.module-item table.form-table th,
+.c dl.member-order-list dd.module-item table.form-table td {
+  padding: 15px 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.c dl.member-order-list dd.module-item table.form-table th {
+  text-align: right;
+}
+.c dl.member-order-list dd.module-item table.form-table td {
+  text-align: left;
+  color: #666;
+}
+.c dl.member-order-list dd.module-item table.form-table span.red {
+  color: #f04141 !important;
+}
+.c dl.member-order-list dd.module-item table.form-table input[type=text] {
+  padding: 3px 6px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.c dl.member-order-list dd.module-item table.form-table .user-name {
+  width: 300px;
+}
+.c dl.member-order-list dd.module-item table.form-table .error-style {
+  display: inline;
+  color: red;
+}
+.c dl.member-order-list dd.module-item table.form-table label {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.c dl.member-order-list dd.module-item table.form-table select {
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.c dl.member-order-list dd.module-item table.form-table button {
+  width: 160px;
+  height: 35px;
+  border-radius: 2px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #008cd6;
+  border: 1px solid #008cd6;
+  cursor: pointer;
+}
+.c dl.member-order-list dd.module-item table.form-table button:hover {
+  background-color: #0272ad;
+  border-color: #0272ad;
+}
+/*# sourceMappingURL=my_information.css.map */

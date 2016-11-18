@@ -1,0 +1,262 @@
+//这是收货地址
+.c{
+    float: left;
+    width: 907px;
+    padding: 0 30px 30px;
+    min-height: 530px;
+    color: #666;
+    background: #fff;
+    a{
+        cursor: pointer;
+    }
+    dl.member-order-list{
+        dt.module-title{
+            height: 60px;
+            line-height: 70px;
+            font-size: 18px;
+            color: #000;
+            border-bottom: 2px solid #f1f1f1;
+            p.left{
+                float: left;
+                line-height: 60px;
+                strong{
+                    font-weight: 400;
+                    color: #008cd6;   
+                }
+                span{
+                    color: #999;
+                    font-size: 14px;
+                    line-height: 100%;
+                }
+            }
+            p.right{
+                float: right;
+                line-height: normal;
+                span.add{
+                    line-height: 58px;
+                    vertical-align: middle;
+                }
+                a{
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 16px;
+                    vertical-align: middle;
+                    cursor: pointer;
+                    background: no-repeat url(../other/my/add-address_68b1568.png);
+                    &:hover{
+                        background: no-repeat url(../other/my/add-address-hover_2949a21.png);
+                    }
+                }
+            }
+        }
+        //这是编辑收货地址start
+        dd.edit-box{
+            display: none;
+            p{
+                line-height: 58px;
+                padding-left: 55px;
+                font-size: 16px;
+                color: #666;
+                background-color: transparent;
+                border-bottom: 1px solid #eee;
+            }
+            form{
+                margin: 50px 0;
+                fieldset{
+                    border: 0;
+                }
+                table{
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                    th{
+                        color: #666;
+                        font-weight: 400;
+                        width: 150px;
+                        text-align: right;
+                        strong{
+                            color: #e50404;
+                            font-size: 16px;
+                            position: relative;
+                            top: 4px;
+                            font-weight: 400;
+                        }
+                    }
+                    td{
+                        padding: 10px 20px;
+                        text-align: left;
+                        color: #666;
+                        select{
+                            width: 159px;
+                            margin-right: 5px;
+                            padding: 4px;
+                            border: 1px solid #ccc;
+                            border-radius: 3px;
+                        }
+                        input[type=text]{
+                            height: 29px;
+                            line-height: 29px;
+                            border: 1px solid #eee;
+                            padding: 3px 6px;
+                            border-radius: 3px;
+                        }
+                        input[type=checkbox] {
+                            width: 15px;
+                            height: 15px;
+                            margin-right: 8px;
+                            vertical-align: middle;
+                        }
+                        input[type=button],input[type=submit],input[type=reset] {
+                            cursor: pointer;
+                            width: 160px;
+                            height: 35px;
+                            border-radius: 3px;
+                            font-family: "Microsoft Yahei",Arial;
+                            &.btn-blue{
+                                color: #fff;
+                                background-color: #008cd6;
+                                border: 1px solid #008cd6;
+                                &:hover{
+                                    background-color: #0272ad;
+                                    border-color: #0272ad;
+                                }
+                            }
+                            &.btn-cancel{
+                                background-color: #f3f3f3;
+                                color: #666;
+                                border: 1px solid #e6e6e6;
+                                &:hover{
+                                    background-color: #e6e6e6;
+                                }
+                            }
+                        }
+                        input[type=button]{
+                            margin-right: 30px;
+                        }
+                        label{
+                            color: #999;
+                            vertical-align: middle;
+                        }
+                        span.error-style{
+                            color: red;
+                            display: inline;
+                        }
+                        input.address{
+                            width: 555px;
+                        }
+                        &.phone{
+                            .p-mobile{
+                                float: left;
+                                width: 225px;
+                                input{
+                                    width: 210px;
+                                    height: 29px;
+                                    line-height: 29px;
+                                    border: 1px solid #eee;
+                                    padding: 3px 6px;
+                                    border-radius: 3px;
+                                    span{
+                                        margin: 0 20px;
+                                    }
+                                }
+                            }
+                            .p-telephone{
+                                margin-left: 225px;
+                                width: 350px;
+                                span{
+                                    margin: 0 20px;
+                                }
+                                input{
+                                    width: 210px;
+                                    height: 29px;
+                                    line-height: 29px;
+                                    border: 1px solid #eee;
+                                    padding: 3px 6px;
+                                    border-radius: 3px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //这是编辑收货地址end
+        //这是显示现在的收货地址start
+        dd.address-box{
+            margin-bottom: 20px;
+            table.common{
+                margin-top: 25px;
+                width: 100%;
+                table-layout: fixed;
+                margin-bottom: 20px;
+                border: 1px solid #e0e0e0;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                border-collapse: collapse;
+                border-spacing: 0;
+                th{
+                    height: 46px;
+                    text-align: center;
+                    font-weight: 400;
+                    border: 1px solid #e0e0e0;
+                    color: #333;
+                    font-size: 16px;
+                }
+                td{
+                    padding: 36px 25px;
+                    vertical-align: middle;
+                    border: 1px solid #e0e0e0;
+                    span{
+                        color: #008cd6;
+                        word-break: break-all;
+                        margin: 0;
+                    }
+                    a{
+                        color: #008cd6;
+                    }
+                    button{
+                        width: 88px;
+                        height: 23px;
+                        border: 0;
+                        border-radius: 3px;
+                        background-color: transparent;
+                        color: #008cd6;
+                        cursor: pointer;
+                        &.select-address{
+                            color: #fff;
+                            background-color: #008cd6;
+                        }
+                    }
+                }
+            }
+        }
+        //这是显示现在的收货地址end
+    }
+}
+
+
+//这是当没有的时候start
+div.no-address{
+    display: none;
+    margin-top: 25px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    padding: 150px 0!important;
+    border: 1px solid #e0e0e0;
+    color: #666;
+    img{
+        width: 154px;
+        height: 126px;
+        display: inline-block!important;
+        margin: 0 0 20px!important;
+        vertical-align: middle;
+    }
+    span{
+        color: #888!important;
+        display: block!important;
+        font-size: 14px;
+    }
+}
+//这是当没有的时候end

@@ -1,0 +1,365 @@
+.main {
+	width: 100%;
+	margin: 0 auto;
+	background: #f5f5f5;
+}
+
+.main a {
+	color: #008cd7;
+	text-decoration: none;
+	cursor: pointer;
+	outline: 0 none;
+}
+
+.main a:hover {
+	color: #535353;
+	text-decoration: none;
+}
+
+.main .content {
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.main .content .crumbs {
+	color: #999;
+	font-size: 14px;
+	padding: 20px 0;
+}
+
+.main .content .crumbs a {
+	color: #008cd6;
+	display: inline-block;
+}
+
+.main .content .crumbs a:first-of-type {
+	padding-left: 20px;
+}
+
+.main .content .crumbs b {
+	display: inline-block;
+	width: 5px;
+	height: 10px;
+	background: url(../other/phone/details-icon_eaf14d5.png) no-repeat;
+	overflow: hidden;
+	margin: 0 10px;
+}
+
+.main .content .menu-bar {
+	padding: 27px 0;
+	float: left;
+	width: 218px;
+	margin-right: 15px;
+	background: #fff;
+}
+
+.main .content .menu-bar .portrait-box {
+	text-align: center;
+}
+
+.main .content .menu-bar .portrait-box img {
+	width: 160px;
+	height: 160px;
+}
+
+.main .content .menu-bar .portrait-box .mem-name {
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	color: #666;
+}
+
+.main .content .menu-bar .portrait-box .mem-name i {
+	display: inline-block;
+	width: 16px;
+	height: 20px;
+	margin-right: 5px;
+	vertical-align: text-bottom;
+	background: url(../other/my/menu-icons_c72fdfd.png) -5px -88px no-repeat;
+}
+
+.main .content .menu-bar .portrait-box .vcoin-info {
+	height: 30px;
+	line-height: 30px;
+}
+
+.main .content .menu-bar .portrait-box .vcoin-info span.red {
+	color: red;
+}
+
+.main .content .menu-bar .menu dt {
+	height: 56px;
+	padding-left: 50px;
+	line-height: 56px;
+	font-size: 16px;
+	color: #333;
+	background-color: #fff;
+}
+
+.main .content .menu-bar .menu dt i {
+	display: inline-block;
+	height: 24px;
+	width: 23px;
+	margin-right: 6px;
+	vertical-align: middle;
+}
+
+.main .content .menu-bar .menu dt .icon-deal {
+	background: url(../other/helpcenter/menu-icons_742f146.png) no-repeat;
+}
+
+.main .content .menu-bar .menu dt .icon-evaluation {
+	background: url(../other/helpcenter/menu-icons_742f146.png) 0 -27px no-repeat;
+}
+
+.main .content .menu-bar .menu dt .icon-account {
+	background: url(../other/helpcenter/menu-icons_742f146.png) 0 -56px no-repeat;
+}
+
+.main .content .menu-bar .menu dd {
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #666;
+}
+
+.main .content .menu-bar .menu dd a {
+	display: block;
+	padding-left: 79px;
+	color: #6e7173;
+}
+
+.main .content .menu-bar .menu dd a:hover {
+	color: #018ed6;
+	background: #def4ff;
+}
+
+
+/*# sourceMappingURL=my.css.map */
+
+.menu-bar {
+	padding: 0 0 20px
+}
+
+.menu-title.buy-process {
+	margin-top: 0
+}
+
+.menu-title {
+	line-height: normal
+}
+
+.menu-title i {
+	background-image: url(https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/menu-icons_742f146.png)
+}
+
+.menu-title span {
+	line-height: 56px;
+	vertical-align: middle
+}
+
+.menu-title.buy-process {
+	margin-top: 0
+}
+
+.menu-title.send-mode i {
+	background-position: 0 -24px
+}
+
+.menu-title.service-support i {
+	background-position: 0 -48px
+}
+
+.menu-title.brand-service i {
+	background-position: 0 -72px
+}
+
+#content .crumbs a {
+	color: #018cd6
+}
+
+.content .content-title {
+	height: 60px;
+	line-height: 70px;
+	font-size: 18px;
+	color: #000;
+	border-bottom: 2px solid #f1f1f1
+}
+
+.content .content-title h1 {
+	float: left;
+	color: #333;
+	font-size: 18px
+}
+
+.content .content-title a {
+	float: right;
+	color: #008cd6;
+	font-size: 14px
+}
+
+.sign-notice {
+	padding: 44px 35px
+}
+
+.sign-notice table {
+	width: 100%;
+	table-layout: fixed;
+	border-left: 1px solid #c3e7fd;
+	border-top: 1px solid #c3e7fd
+}
+
+.sign-notice table td {
+	padding: 45px;
+	border-right: 1px solid #c3e7fd;
+	border-bottom: 1px solid #c3e7fd;
+	vertical-align: top
+}
+
+.sign-notice td>i {
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+	background: url(https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/sign-notice_a7cc7d0.png) no-repeat
+}
+
+.sign-notice td>.icon-2 {
+	background-position: -68px 0
+}
+
+.sign-notice td>.icon-3 {
+	width: 65px;
+	height: 65px;
+	background-position: -141px 5px
+}
+
+.sign-notice td>.icon-4 {
+	width: 67px;
+	height: 67px;
+	background-position: 0 -63px
+}
+
+.sign-notice td>.icon-5 {
+	width: 67px;
+	height: 67px;
+	background-position: -74px -63px
+}
+
+.sign-notice td>.icon-6 {
+	width: 67px;
+	height: 67px;
+	background-position: -146px -61px
+}
+
+.sign-notice td>p {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #333;
+	line-height: 1.5
+}
+
+.transport-way .process {
+	height: 147px;
+	background: url(https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/transport-way_67282fa.png) no-repeat
+}
+
+.transport-way td {
+	padding: 45px 15px;
+	vertical-align: top
+}
+
+.transport-way table {
+	width: 100%;
+	table-layout: fixed
+}
+
+.transport-way td>p {
+	word-break: break-all;
+	font-size: 16px;
+	color: #333;
+	line-height: 1.5
+}
+
+.transport-way td .image {
+	margin-top: 20px;
+	width: 100%;
+	border: 1px dashed #b0b0b0
+}
+
+.contact-us {
+	padding: 35px 70px 35px 75px
+}
+
+.contact-us div {
+	display: inline-block;
+	vertical-align: top
+}
+
+.contact-us .work-time,
+.contact-us .service-phone,
+.contact-us .service-email {
+	width: 68px;
+	height: 68px;
+	margin: 0 30px 0 65px
+}
+
+.contact-us .work-time {
+	background: 0 0 no-repeat url(https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/contact-us_c43df79.png)
+}
+
+.contact-us .service-phone {
+	background: -83px 0 no-repeat url(https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/contact-us_c43df79.png)
+}
+
+.contact-us .service-email {
+	background: -168px 0 no-repeat url(https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/contact-us_c43df79.png)
+}
+
+.contact-us h2 {
+	color: #333;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 20px
+}
+
+.contact-us p {
+	color: #666;
+	line-height: 24px
+}
+
+.contact-us hr {
+	border: 0;
+	border-bottom: 1px dashed #eee;
+	margin: 35px 0
+}
+
+.c {
+	float: left;
+	width: 907px;
+	padding: 0 30px 30px;
+	min-height: 530px;
+	color: #666;
+	background: #fff;
+}
+
+.c .c-title {
+	height: 60px;
+	line-height: 70px;
+	font-size: 18px;
+	color: #000;
+	border-bottom: 2px solid #f1f1f1;
+}
+
+.c .c-title h1 {
+	float: left;
+	color: #333;
+	font-size: 18px;
+}
+
+.main .content .meun-bar .c on {
+	color: #018ed6;
+	background-color: #def4ff;
+}

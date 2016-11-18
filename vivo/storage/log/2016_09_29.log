@@ -1,0 +1,9 @@
+[ 2016-09-29T08:34:28+08:00 ]EXCEPTION: whereIn 参数错误
+[ 2016-09-29T08:37:32+08:00 ]EXCEPTION: UPDATE category  WHERE  category_id IN (?,?) ;BindParams:array (
+  1 => '16',
+  2 => '18',
+)42000;1064;Erreur de syntaxe près de 'WHERE  category_id IN ('16','18')' à la ligne 1
+[ 2016-09-29T08:38:13+08:00 ]EXCEPTION: UPDATE category  WHERE  category_id IN (?,?) ;BindParams:array (
+  1 => '16',
+  2 => '18',
+)42000;1064;Erreur de syntaxe près de 'WHERE  category_id IN ('16','18')' à la ligne 1

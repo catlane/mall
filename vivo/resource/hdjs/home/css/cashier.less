@@ -1,0 +1,378 @@
+body{
+    font: 12px/1.5 "Microsoft Yahei",Arial;
+    margin: 0;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+}
+a{
+    transition: .3s;
+    &:hover{
+        color: #008cd7;
+    }
+}
+div.head{
+    background: #f7f7f7;
+    div.login-bar{
+        width: 1000px;
+        margin: 0 auto;
+        color: #5a5a5a;
+        height: 28px;
+        line-height: 28px;
+        .fr{
+            float: right;
+            li{
+                margin-right: 15px;
+                margin-left: 15px;
+                float: left; 
+                &:last-of-type{
+                    margin-left: 10px;
+                }
+                a{
+                    color: #5a5a5a;
+                    &:hover{
+                        color: #008cd7;
+                    }
+                }
+            }
+        }
+    }
+}
+.w{
+    width: 1000px;
+    margin: 0 auto;
+}
+//网站logostart
+.cash-logo{
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #f2f2f2;
+    background: #fff;
+    img{
+        padding: 20px 0;
+    }
+}
+//网站logoend
+div.main{
+    overflow: hidden;
+    margin-bottom: 20px;
+    div.order-info{
+        float: right;
+        width: 100%;
+        //订单提示
+        div.order-info-less{
+            overflow: hidden;
+            margin-top: 60px;
+            margin-bottom: 45px;
+            padding-left: 30px;
+            background: url(../other/master/succ-tick.png) 0px center no-repeat;
+            div.left{
+                float: left;
+                margin-left: 20px;
+                p.orderid-d{
+                    font-size: 18px;
+                    color: #484848;
+                }
+                p.orderid-cancle{
+                    font-size: 13px;
+                    color: #484848;
+                    margin-top: 10px;
+                    span{
+                        color: #f04141;
+                    }
+                }
+            }
+            div.right{
+                float: right;
+                p{
+                    font-size: 18px;
+                    color: #484848;
+                    span{
+                        font-size: 24px;
+                        padding: 0 4px;
+                        color: #f04141;
+                    }
+                }
+                a{
+                    display: inline-block;
+                    margin-top: 10px;
+                    font-size: 13px;
+                    color: #008cd6;
+                    float: right;
+                    div.triangle{
+                        margin-left: 5px;
+                        width: 0;
+                        height: 0;
+                        display: inline-block;
+                        border-left: 6px solid transparent;
+                        border-right: 6px solid transparent;
+                        border-top: 8px solid #429edc;
+                    }
+                }
+            }
+        }
+        //订单详情
+        div.order-details{
+            display: none;
+            width: 90%;
+            background-color: #f9f9f9;
+            margin: 0 auto;
+            margin-bottom: 15px;
+            margin-top: -25px;
+            ul{
+                padding: 10px 30px;
+                li{
+                    line-height: 25px;
+                    color: #9d9d9d;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    //付款方式
+    div.pay-way-outer{
+        min-height: 180px;
+        position: relative;
+        margin-bottom: 20px;
+        background-color: #ffffff;
+        div.pay-wraper{
+            overflow: hidden;
+            padding: 45px;
+            border: solid 4px #e3f5ff;
+            //这是支付方式
+            .pay-item{
+                cursor: pointer;
+                width: 180px;
+                height: 50px;
+                border: solid 1px #b3b3b3;
+                background-image: url(../other/master/pay-icon.jpg);
+                background-repeat: no-repeat;
+                a{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            div.rec-alipay{
+                .selected{
+                    border-color: #f04141;
+                    border-width: 2px;
+                    width: 178px;
+                    height: 48px;
+                    position: relative;
+                    &:before{
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        width: 23px;
+                        height: 16px;
+                        background: url(../other/master/tick.png) center center no-repeat;
+                        top: 0;
+                        right: 0;
+                    }
+                }
+                overflow: hidden;
+                div.zhifubao{
+                    float: left;
+                    background-position: 0px 0px;
+                }
+                div.other-pay{
+                    padding: 0px 32px;
+                    height: 50px;
+                    border: dashed 1px #d0d0d0;
+                    font-size: 16px;
+                    line-height: 50px;
+                    text-align: center;
+                    float: left;
+                    cursor: pointer;
+                    margin-left: 35px;
+                    color: #008cd6;
+                    background: url(../other/master/otherpay-arrowdown.png) 90% center no-repeat;
+                }
+                div.order-total{
+                    float: right;
+                    font-size: 16px;
+                    color: #696969;
+                    line-height: 50px;
+                    span{
+                        font-size: 18px;
+                        color: #f04141;
+                        padding: 0px 4px;
+                    }
+                }
+            }
+            div.other-paylist{
+                overflow: hidden;
+                display: none;
+                margin: 40px 0px 25px 0px;
+                .selected{
+                    border-color: #f04141;
+                    border-width: 2px;
+                    width: 178px;
+                    height: 48px;
+                    position: relative;
+                    &:before{
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        width: 23px;
+                        height: 16px;
+                        background: url(../other/master/tick.png) center center no-repeat;
+                        top: 0;
+                        right: 0;
+                    }
+                }
+                ul{
+                    li{
+                        margin-bottom: 40px;
+                        float: left;
+                        margin-right: 25px;
+                    }
+                    li.shaoma{
+                        background-position: 0px -50px;
+                    }
+                    li.weixin{
+                        background-position: 0px -100px;
+                    }
+                    li.caifutong{
+                        background-position: 0px -150px;
+                    }
+                    li.zaixian{
+                        background-position: 0px -200px;
+                    }
+                    li.huabei{
+                        background-position: 0px -250px;
+                    }
+                }
+            }
+        }
+        div.pay-btn{
+            padding-top: 18px;
+            a{
+                float: right;
+                width: 175px;
+                line-height: 38px;
+                border-radius: 4px;
+                background-color: #f04141;
+                text-align: center;
+                font-size: 18px;
+                color: #ffffff;
+            }
+        }
+    }
+}
+div.footer{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-top: solid 1px #ccc;
+    .copyright{
+        float: left;
+        height: 27px;
+        line-height: 27px;
+        color: #6E6E6F;
+    }
+    .sns-box{
+        color: #6E6E6F;
+        position: relative;
+        float: right;
+        a{
+            width: 27px;
+            height: 27px;
+            display: inline-block;
+            overflow: hidden;
+            margin-left: 8px;
+            transition: .3s;
+            border-radius: 10%;
+            vertical-align: middle;
+            b{
+                width: 27px;
+                height: 27px;
+                overflow: hidden;
+                display: inline-block;
+                background: url(../other/master/sns-ico.png) no-repeat;
+                transition: .3s;
+            }
+        }
+        .a1{
+            b{
+                background-position: 0 0;
+            }
+            &:hover{
+                background: #e52c42;
+                b{
+                    background-position: 0 -27px;
+                }
+            }
+        }
+        .a2{
+            b{
+                background-position: -27px 0;
+            }
+            &:hover{
+                background: #14addf;
+                b{
+                    background-position: -27px -27px;
+                }
+            }
+        }
+        .a3{
+            b{
+                background-position: -108px 0;
+            }
+            &:hover{
+                background: #056be8;
+                b{
+                    background-position: -108px -27px;
+                }
+            }
+        }
+        .a4{
+            b{
+                background-position: -54px 0;
+            }
+            &:hover{
+                background: #20a900;
+                b{
+                    background-position: -54px -27px;
+                }
+                div{
+                    display: block;
+                }
+            }
+            div{
+                width: 143px;
+                height: 143px;
+                background: #fff;
+                position: absolute;
+                bottom: 45px;
+                right: -56px;
+                z-index: 99;
+                display: none;
+                box-shadow: 0 0 5px rgba(0,0,0,0.5);
+                border-radius: 3px;
+                img{
+                    position: relative;
+                    left: 15px;
+                    top: 15px;
+                }
+                em{
+                    width: 18px;
+                    height: 12px;
+                    overflow: hidden;
+                    background: url(../other/master/casher-logo.png) no-repeat;
+                    position: absolute;
+                    bottom: -12px;
+                    left: 50%;
+                    margin-left: -9px;
+                }
+            }
+        }
+    }
+}

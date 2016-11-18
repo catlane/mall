@@ -1,0 +1,21 @@
+.c {
+  float: left;
+  width: 907px;
+  padding: 0 30px 30px;
+  min-height: 530px;
+  color: #666;
+  background: #fff;
+}
+.c .c-title {
+  height: 60px;
+  line-height: 70px;
+  font-size: 18px;
+  color: #000;
+  border-bottom: 2px solid #f1f1f1;
+}
+.c .c-title h1 {
+  float: left;
+  color: #333;
+  font-size: 18px;
+}
+/*# sourceMappingURL=sign.css.map */

@@ -1,0 +1,21 @@
+.c {
+	color: #353535;
+	text-align: center
+}
+
+.c h2 {
+	font-size: 30px;
+	margin: 70px 0 35px
+}
+
+.c ul {
+	text-align: left;
+	margin: 0 0 52px 83px
+}
+
+.c li {
+	font-size: 18px;
+	line-height: 31px;
+	padding-left: 29px;
+	background: 0 9px no-repeat url(https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/list-style-image_8338f68.png)
+}

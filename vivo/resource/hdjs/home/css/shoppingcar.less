@@ -1,0 +1,210 @@
+//购物车分两种情况，一种是有商品，一种是没有商品的
+.main{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-top: 1px solid #f2f2f2; 
+    //这是都有的购物车流程图
+    .wrapper{
+        width: 1200px;
+        margin: 0 auto;
+        .buy-steps{
+            margin: 65px 0;
+            height: 52px;
+            background: url(../other/shoppingcar/buy-process-bar_0a1afdc.png) 0 0 no-repeat;
+        }
+    }
+    //都有的end
+    div.container{
+        div.wrapper{
+            div.prod-list{
+                //这是没有商品的样式
+                div.no-result{
+                    padding: 100px 0 50px;
+                    text-align: center;
+                    img{
+                        border: 0;
+                    }
+                    p{
+                        font-size: 14px;
+                        margin-top: 50px;
+                        line-height: 30px;
+                        a{
+                            color: #008cd7;
+                            &:hover{
+                                color: #535353;
+                            }
+                        }
+                    }
+                }
+                //这是有商品的样式
+                div.have-list{
+                    a{
+                        color: #008cd7;
+                        &:hover{
+                            color: #535353;
+                        }
+                    }
+                    table{
+                        color: #686868;
+                        margin-top: 20px;
+                        width: 100%;
+                        border: 1px solid #e3e3e3;
+                        table-layout: fixed;
+                        text-align: center;
+                        vertical-align: middle;
+                        word-wrap: break-word;
+                        border-collapse: collapse;
+                        border-spacing: 0;
+                        th{
+                            height: 44px;
+                            font-weight: 400;
+                            font-size: 14px;
+                            color: #666;
+                            background: #fafafa;
+                        }
+                        td{
+                            border-top: 1px solid #e3e3e3;
+                        }
+                        .td-check{//这是checkbox
+                            text-align: right;
+                            input{
+                                margin-right: 10px;
+                                cursor: pointer;
+                                vertical-align: middle;
+                            }
+                        }
+                        td.prod-pic{
+                            vertical-align: middle;
+                            border-right: 0;
+                            a{
+                                img{
+                                    width: 120px;
+                                    height: 120px;
+                                    margin: 10px 0;
+                                    border: 0;
+                                }
+                            }
+                        }
+                        .prod-name{
+                            text-align: left;
+                            height: 70px;
+                            a{
+                                display: inline-block;
+                                width: 100%;
+                                color: #333;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                &:hover{
+                                    color: #008cd7;
+                                }
+                            }
+                        }
+                        span.number-box{
+                            display: inline-block;
+                            border: 1px solid #ccc;
+                            font-size: 0;
+                            a{
+                                display: inline-block;
+                                height: 21px;
+                                width: 21px;
+                                text-align: center;
+                                font-size: 13px;
+                                color: #666;
+                                vertical-align: middle;
+                            }
+                            input{
+                                width: 30px;
+                                height: 21px;
+                                padding: 1px 2px;
+                                font-size: 14px;
+                                text-align: center;
+                                border-width: 0 1px;
+                                border-color: #ccc;
+                                border-radius: 0;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                    ul.price-list{
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                        li{
+                            text-align: right;
+                            font-size: 14px;
+                            padding: 5px 0;
+                            span.price{
+                                display: inline-block;
+                                padding-right: 25px;
+                            }
+                            span.red{
+                                color: #f04141;
+                            }
+                        }
+                    }
+                    div.option-box{
+                        position: relative;
+                        height: 80px;
+                        padding-left: 12px;
+                        padding-right: 25px;
+                        background: #e3f5ff;
+                        div.option-operation{
+                            li{
+                                float: left;
+                                margin-right: 20px;
+                                height: 80px;
+                                line-height: 80px;
+                            }
+                        }
+                        div.real-price{
+                            position: absolute;
+                            right: 25px;
+                            height: 80px;
+                            line-height: 80px;
+                            font-size: 14px;
+                            em{
+                                color: #f04141;
+                            }
+                            span.price{
+                                width: 150px;
+                                font-size: 30px;
+                                vertical-align: middle;
+                                color: #f04141;
+                            }
+                        }
+                    }
+                    div.btn-box{
+                        text-align: right;
+                        margin: 37px 0 0;
+                        button{
+                            width: 150px;
+                            height: 35px;
+                            line-height: 1;
+                            font-size: 18px;
+                            border-radius: 3px;
+                            cursor: pointer;
+                        }
+                        button.goshopping{
+                            background: #f3f3f3;
+                            color: #666;
+                            border: 1px solid #e6e6e6;
+                            &:hover{
+                                background: #e6e6e6;
+                            }
+                        }
+                        button.btnconfirm{
+                            background: #ed4346;
+                            border: 1px solid #ed4346;
+                            color: #fff;
+                            &:hover{
+                                background: #cb3030;
+                                border-color: #cb3030;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

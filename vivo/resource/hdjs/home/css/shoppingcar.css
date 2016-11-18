@@ -1,0 +1,194 @@
+.main {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  border-top: 1px solid #f2f2f2;
+}
+.main .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main .wrapper .buy-steps {
+  margin: 65px 0;
+  height: 52px;
+  background: url(../other/shoppingcar/buy-process-bar_0a1afdc.png) 0 0 no-repeat;
+}
+.main div.container div.wrapper div.prod-list div.no-result {
+  padding: 100px 0 50px;
+  text-align: center;
+}
+.main div.container div.wrapper div.prod-list div.no-result img {
+  border: 0;
+}
+.main div.container div.wrapper div.prod-list div.no-result p {
+  font-size: 14px;
+  margin-top: 50px;
+  line-height: 30px;
+}
+.main div.container div.wrapper div.prod-list div.no-result p a {
+  color: #008cd7;
+}
+.main div.container div.wrapper div.prod-list div.no-result p a:hover {
+  color: #535353;
+}
+.main div.container div.wrapper div.prod-list div.have-list a {
+  color: #008cd7;
+}
+.main div.container div.wrapper div.prod-list div.have-list a:hover {
+  color: #535353;
+}
+.main div.container div.wrapper div.prod-list div.have-list table {
+  color: #686868;
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  table-layout: fixed;
+  text-align: center;
+  vertical-align: middle;
+  word-wrap: break-word;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.main div.container div.wrapper div.prod-list div.have-list table th {
+  height: 44px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+  background: #fafafa;
+}
+.main div.container div.wrapper div.prod-list div.have-list table td {
+  border-top: 1px solid #e3e3e3;
+}
+.main div.container div.wrapper div.prod-list div.have-list table .td-check {
+  text-align: right;
+}
+.main div.container div.wrapper div.prod-list div.have-list table .td-check input {
+  margin-right: 10px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.main div.container div.wrapper div.prod-list div.have-list table td.prod-pic {
+  vertical-align: middle;
+  border-right: 0;
+}
+.main div.container div.wrapper div.prod-list div.have-list table td.prod-pic a img {
+  width: 120px;
+  height: 120px;
+  margin: 10px 0;
+  border: 0;
+}
+.main div.container div.wrapper div.prod-list div.have-list table .prod-name {
+  text-align: left;
+  height: 70px;
+}
+.main div.container div.wrapper div.prod-list div.have-list table .prod-name a {
+  display: inline-block;
+  width: 100%;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main div.container div.wrapper div.prod-list div.have-list table .prod-name a:hover {
+  color: #008cd7;
+}
+.main div.container div.wrapper div.prod-list div.have-list table span.number-box {
+  display: inline-block;
+  border: 1px solid #ccc;
+  font-size: 0;
+}
+.main div.container div.wrapper div.prod-list div.have-list table span.number-box a {
+  display: inline-block;
+  height: 21px;
+  width: 21px;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  vertical-align: middle;
+}
+.main div.container div.wrapper div.prod-list div.have-list table span.number-box input {
+  width: 30px;
+  height: 21px;
+  padding: 1px 2px;
+  font-size: 14px;
+  text-align: center;
+  border-width: 0 1px;
+  border-color: #ccc;
+  border-radius: 0;
+  vertical-align: middle;
+}
+.main div.container div.wrapper div.prod-list div.have-list ul.price-list {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.main div.container div.wrapper div.prod-list div.have-list ul.price-list li {
+  text-align: right;
+  font-size: 14px;
+  padding: 5px 0;
+}
+.main div.container div.wrapper div.prod-list div.have-list ul.price-list li span.price {
+  display: inline-block;
+  padding-right: 25px;
+}
+.main div.container div.wrapper div.prod-list div.have-list ul.price-list li span.red {
+  color: #f04141;
+}
+.main div.container div.wrapper div.prod-list div.have-list div.option-box {
+  position: relative;
+  height: 80px;
+  padding-left: 12px;
+  padding-right: 25px;
+  background: #e3f5ff;
+}
+.main div.container div.wrapper div.prod-list div.have-list div.option-box div.option-operation li {
+  float: left;
+  margin-right: 20px;
+  height: 80px;
+  line-height: 80px;
+}
+.main div.container div.wrapper div.prod-list div.have-list div.option-box div.real-price {
+  position: absolute;
+  right: 25px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 14px;
+}
+.main div.container div.wrapper div.prod-list div.have-list div.option-box div.real-price em {
+  color: #f04141;
+}
+.main div.container div.wrapper div.prod-list div.have-list div.option-box div.real-price span.price {
+  width: 150px;
+  font-size: 30px;
+  vertical-align: middle;
+  color: #f04141;
+}
+.main div.container div.wrapper div.prod-list div.have-list div.btn-box {
+  text-align: right;
+  margin: 37px 0 0;
+}
+.main div.container div.wrapper div.prod-list div.have-list div.btn-box button {
+  width: 150px;
+  height: 35px;
+  line-height: 1;
+  font-size: 18px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.main div.container div.wrapper div.prod-list div.have-list div.btn-box button.goshopping {
+  background: #f3f3f3;
+  color: #666;
+  border: 1px solid #e6e6e6;
+}
+.main div.container div.wrapper div.prod-list div.have-list div.btn-box button.goshopping:hover {
+  background: #e6e6e6;
+}
+.main div.container div.wrapper div.prod-list div.have-list div.btn-box button.btnconfirm {
+  background: #ed4346;
+  border: 1px solid #ed4346;
+  color: #fff;
+}
+.main div.container div.wrapper div.prod-list div.have-list div.btn-box button.btnconfirm:hover {
+  background: #cb3030;
+  border-color: #cb3030;
+}
+/*# sourceMappingURL=shoppingcar.css.map */

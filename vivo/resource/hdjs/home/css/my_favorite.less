@@ -1,0 +1,172 @@
+//这是我的收藏
+.c{
+    float: left;
+    width: 907px;
+    padding: 0 30px 30px;
+    min-height: 530px;
+    color: #666;
+    background: #fff;
+    a{
+        cursor: pointer;
+    }
+    button{
+        cursor: pointer;
+    }
+    .member-order-list{
+        dt{
+            height: 60px;
+            line-height: 70px;
+            font-size: 18px;
+            color: #000;
+            border-bottom: 2px solid #f1f1f1;
+        }
+        dd{
+            position: relative;
+            table.common{
+                margin-top: 25px;
+                border: 1px solid #e0e0e0;
+                border-bottom: 0px;
+                border-right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                border-collapse: collapse;
+                border-spacing: 0;
+                tbody{
+                    border-bottom: 1px solid #e0e0e0;
+                }
+                img{
+                    width: 105px;
+                    height: 105px;
+                    vertical-align: middle;
+                }
+                th{
+                    color: #333;
+                    font-size: 16px;
+                    font-weight: 400;
+                    height: 46px;
+                    padding: 10px;
+                    border-right: 1px solid #e0e0e0;
+                    border-bottom: 1px solid #e0e0e0;
+                    &.img{
+                        border-right: 0;
+                    }
+                    &.name{
+                        width: 250px;
+                    }
+                    &.price{
+                        width: 120px;
+                    }
+                    &.time{
+                        width: 190px;
+                    }
+                    &.state{
+                        width: 120px;
+                    }
+                    &.operation{
+                        width: 190px;
+                    }
+                }
+                td{
+                    color: #666;
+                    padding: 10px;
+                    border-right: 1px solid #e0e0e0;
+                    &:first-of-type{
+                        border-right: 0;
+                    }
+                    a,strong{
+                        color: #3bace6;
+                    }
+                    dfn{
+                        font-style: normal;
+                        font-family: "Microsoft YaHei"!important;
+                    }
+                    a.img-wrapper{
+                        display: inline-block;
+                        vertical-align: middle;
+                        img{
+                            width: 105px;
+                            height: 105px;
+                            vertical-align: middle;
+                            border: 0;
+                        }
+                    }
+                    a.link{
+                        font-size: 16px;
+                        margin-left: 10px;
+                        vertical-align: middle;
+                    }
+                    &.operate{
+                        position: relative;
+                        .buy{
+                            display: inline-block;
+                            margin-right: 16px;
+                            width: 98px;
+                            line-height: 28px;
+                            border: 1px solid #7ec2eb;
+                            border-radius: 2px;
+                            background-color: #fff;
+                        }
+                        .tooltip{
+                            display: none;
+                            position: absolute;
+                            left: 0;
+                            bottom: 115px;
+                            width: 125px;
+                            padding: 24px;
+                            border: 1px solid #c3e7fd;
+                            background-color: #fff;
+                            p{
+                                color: #4b4b4b;
+                                margin-bottom: 12px;
+                            }
+                            button{
+                                width: 60px;
+                                height: 23px;
+                                border: 0;
+                                border-radius: 2px;
+                                background-color: transparent;
+                                &.hover{
+                                    color: #fff;
+                                    background-color: #008cd6;
+                                }
+                            }
+                        }
+                        span.tooltip-arrow{
+                            display: none;
+                            position: absolute;
+                            left: 142px;
+                            bottom: 104px;
+                            width: 22px;
+                            height: 12px;
+                            background: no-repeat url(../other/my/tooltip-arrow_4245032.png);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//这是当没有的时候
+div.no-record{
+    display: none;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    padding: 150px 0!important;
+    img{
+        width: 151px;
+        height: 138px;
+        display: inline-block!important;
+        margin: 0 0 20px!important;
+        vertical-align: middle;
+    }
+    span{
+        color: #888!important;
+        display: block!important;
+        font-size: 14px;
+    }
+}

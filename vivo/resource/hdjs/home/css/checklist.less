@@ -1,0 +1,500 @@
+//这是核对订单信息
+.main{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px; 
+    border-top: 1px solid #f2f2f2;   
+    //这是都有的购物车流程图
+    .wrapper{
+        width: 1200px;
+        margin: 0 auto;
+        .buy-steps{
+            margin: 65px 0;
+            height: 52px;
+            background: url(../other/shoppingcar/buy-process-bar_0a1afdc.png) 0 -90px no-repeat;
+        }
+    }
+    //都有的end
+    div.container{
+        div.wrapper{
+            //这是核对订单详细信息
+            dl.module-list{
+                dt.module-title{
+                    height: 45px;
+                    padding-left: 45px;
+                    line-height: 45px;
+                    color: #333;
+                    font-size: 16px;
+                    background: #f3f3f3;
+                    small{
+                        margin-left: 30px;
+                        font-size: 14px;
+                        color: #666;
+                    }
+                }
+                dd{
+                    padding-top: 25px;
+                    padding-bottom: 25px;
+                }
+                dd.address-info{
+                    padding: 25px 40px;
+                    ul.adress-list{
+                        margin-right: -15px;
+                        overflow: hidden;
+                        li{
+                            float: left;
+                            position: relative;
+                            width: 223px;
+                            height: 153px;
+                            margin-right: 14px;
+                            margin-bottom: 10px;
+                            padding: 0 22px;
+                            font-size: 14px;
+                            border: 1px solid #e3e3e3;
+                            p{
+                                max-height: 54px;
+                                overflow: hidden;
+                                line-height: 18px;
+                            }
+                            &.address-item{
+                                &:hover label ul.operations{
+                                    display: block;
+                                }
+                                label{
+                                    display: block;  
+                                    width: 100%;
+                                    height: 100%;
+                                    cursor: pointer;
+                                    p.item-top{
+                                        margin: 20px 0 15px;
+                                        overflow: hidden;
+                                        span{
+                                            &:first-of-type{
+                                                float: left;
+                                            }
+                                            float: right;
+                                        }
+                                    }
+                                    p:nth-of-type(2){
+                                        span{
+                                            margin-left: 1px;
+                                        }
+                                    }
+                                    ul.operations{
+//                                      display: none;
+                                        position: absolute;
+                                        left: 22px;
+                                        bottom: 22px;
+                                        li{
+                                            float: left;
+                                            margin-right: 10px;
+                                            line-height: 20px;
+                                            color: #008cd6;
+                                            cursor: pointer;
+                                            width: auto;
+                                            height: auto;
+                                            padding: 0;
+                                            border: 0;
+                                        }
+                                    }
+                                }
+                            }
+                            &.on{
+                                border: 0;
+                                width: 225px;
+                                height: 155px;
+                                background: url(../other/checklist/border-address_60cc494.png) no-repeat;
+                            }
+                            &.new{
+                                text-align: center;
+                                line-height: 200px;
+                                label{
+                                    width: 100%;
+                                    height: 100%;
+                                    display: block;
+                                    cursor: pointer;
+                                    background: url(../other/checklist/icon-add-32x32_16a3e66.png) center 46px no-repeat;
+                                }
+                            }
+                        }
+                        //这是添加新地址
+                        dl.address-info-new{
+                            display: none;
+                            margin-top: 20px;
+                            margin-left: 10px;
+                            clear: left;
+                            font-size: 13px;
+                            dt{
+                                clear: left;
+                                float: left;
+                                width: 100px;
+                                text-align: right;
+                                height: 35px;
+                                line-height: 35px;
+                                span{
+                                    margin-right: 5px;
+                                    color: #f33;
+                                }
+                                &.tel{
+                                    clear: none;
+                                }
+                            }
+                            dd{
+                                float: left;
+                                height: 35px;
+                                line-height: 35px;
+                                padding: 0;
+                                span.error{
+                                    color: red;
+                                    display: inline;
+                                }
+                                input[type=text]{
+                                    width: 145px;
+                                    height: 20px;
+                                    padding: 3px 6px;
+                                    border: 1px solid #ccc;
+                                    border-radius: 3px;
+                                    &.address{
+                                        width: 481px;
+                                    }
+                                }
+                                select{
+                                    width: 159px;
+                                    margin-right: 5px;
+                                    padding: 4px;
+                                    border: 1px solid #ccc;
+                                    border-radius: 3px;
+                                }
+                                button{
+                                    width: 160px;
+                                    height: 35px;
+                                    font-size: 14px;
+                                    border-radius: 3px;
+                                    margin: 0px 15px 0 0;
+                                    cursor: pointer;
+                                    &.blue{
+                                        color: #fff;
+                                        background: #008cd6;
+                                        border: 1px solid #008cd6;
+                                        &:hover{
+                                            background: #0272ad;
+                                            border-color: #0272ad;
+                                        }
+                                    }
+                                    &.cancel{
+                                        color: #666;
+                                        background: #f3f3f3;
+                                        border: 1px solid #e6e6e6;
+                                        &:hover{
+                                            background: #e6e6e6;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        //这是添加新地址end
+                    }
+                }
+                //这是支付方式start
+                    dd.delivery-info{
+                        div.pay-method{//支付方式
+                            display: inline-block;
+                            width: 160px;
+                            height: 35px;
+                            margin-left: 40px;
+                            color: #666;
+                            border: 1px solid #ccc;
+                            background: #fff;
+                            cursor: pointer;
+                            position: relative;
+                            text-align: center;
+                            line-height: 35px;
+                        }
+                        div.on{//这是支付方式选中状态
+                            border: 2px solid #008cd6;
+                            height: 33px;
+                            width: 158px;
+                            i{
+                                width: 11px;
+                                height: 11px;
+                                position: absolute;
+                                right: -1px;
+                                bottom: -1px;
+                                background: url(../other/checklist/icon-selected_40af0b0.png) 0 0 no-repeat;
+                            }
+                        }
+                    }
+                    //这是发票信息start
+                    dd.invoice-info{
+                        div.tax-type{//支付方式
+                            display: inline-block;
+                            width: 160px;
+                            height: 35px;
+                            margin-left: 40px;
+                            color: #666;
+                            border: 1px solid #ccc;
+                            background: #fff;
+                            cursor: pointer;
+                            position: relative;
+                            text-align: center;
+                            line-height: 35px;
+                        }
+                        div.on{//这是发票信息选中状态
+                            border: 2px solid #008cd6;
+                            height: 33px;
+                            width: 158px;
+                            i{
+                                width: 11px;
+                                height: 11px;
+                                position: absolute;
+                                right: -1px;
+                                bottom: -1px;
+                                background: url(../other/checklist/icon-selected_40af0b0.png) 0 0 no-repeat;
+                            }
+                        }
+                        label{
+                            margin-left: 65px;
+                            span.red{
+                                color: #f04141!important;
+                            }
+                            input{
+                                width: 485px;
+                                height: 20px;
+                                padding: 3px 6px;
+                                border: 1px solid #ccc;
+                                border-radius: 3px;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    //这是发票信息end
+                    //确认商品start
+                    dd.confirm-goods{
+                        //这是商品的信息展示start
+                        div.prod-list{
+                            table.order-table{
+                                margin-top: 0;
+                                width: 100%;
+                                color: #666;
+                                border: 1px solid #e3e3e3;
+                                table-layout: fixed;
+                                text-align: center;
+                                vertical-align: middle;
+                                word-wrap: break-word;
+                                border-collapse: collapse;
+                                border-spacing: 0;
+                                th{
+                                    height: 44px;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    color: #666;
+                                    background: #fafafa;
+                                }
+                                td{
+                                    border-bottom: 1px solid #e3e3e3;
+                                }
+                                tbody.item-single{
+                                    tr.prod-line{
+                                        td.prod-pic{
+                                            vertical-align: middle;  
+                                            a{
+                                                img{
+                                                    width: 120px;
+                                                    height: 120px;
+                                                    margin: 10px 0;
+                                                    border: 0;
+                                                }
+                                            }
+                                        }
+                                        td.prod-name{
+                                            text-align: left;
+                                            height: 70px;
+                                            a{
+                                                display: inline-block;
+                                                width: 100%;
+                                                color: #333;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;
+                                                &:hover{
+                                                    color: #008cd7;
+                                                }
+                                            }
+                                            span{
+                                                font-size: 14px;
+                                                font-weight: normal;
+                                                color: #9b9b9b;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        //这是商品的信息展示end
+                        //这是确认信息使用的优惠价以及备注start
+                        div.order-info-box{
+                            margin-top: 30px;
+                            color: #666;
+                            ul{
+                                li.coupon-info{//这是使用优惠券
+                                    div.coupon-info-title{
+                                        font-size: 16px;
+                                        line-height: 18px;
+                                        i{
+                                            float: left;
+                                            display: block;
+                                            width: 13px;
+                                            height: 18px;
+                                            margin-right: 7px;
+                                            background: url(../other/checklist/icon-mark_8c18b9a.png) 0 0 no-repeat;
+                                        }
+                                    }
+                                    div.info-box{
+                                        label{
+                                            height: 40px;
+                                            line-height: 40px;
+                                            select{
+                                                width: 139px;
+                                                margin-right: 50px;
+                                                border: 1px solid #ccc;
+                                                border-radius: 3px;
+                                            }
+                                            input[type=text]{
+                                                width: 145px;
+                                                padding: 3px 6px;
+                                                border: 1px solid #ccc;
+                                                border-radius: 3px;
+                                            }
+                                        }
+                                        button{
+                                            width: 85px;
+                                            height: 25px;
+                                            margin-left: 15px;
+                                            line-height: 23px;
+                                            border-radius: 3px;
+                                            color: #fff;
+                                            background: #008cd6;
+                                            border: 1px solid #008cd6;
+                                            cursor: pointer; 
+                                            &:hover{
+                                                background: #0272ad;
+                                                border-color: #0272ad;
+                                            }
+                                        }
+                                    }
+                                }
+                                //这是使用优惠券end
+                                //这是订单备注
+                                li.order-remark{
+                                    margin-top: 20px;
+                                    div.info-box{
+                                        label{
+                                            font-size: 16px;
+                                            line-height: 0;
+                                            i{
+                                                float: left;
+                                                display: block;
+                                                width: 13px;
+                                                height: 18px;
+                                                margin-right: 7px;
+                                                background: url(../other/checklist/icon-mark_8c18b9a.png) 0 0 no-repeat;
+                                            }
+                                        }
+                                        textarea{
+                                            width: 800px;
+                                            vertical-align: top;
+                                            overflow: auto;
+                                            resize: none;
+                                            padding: 3px 6px;
+                                            border: 1px solid #ccc;
+                                            border-radius: 3px;
+                                        }
+                                    }
+                                }
+                                //这是订单备注
+                            }
+                            //这是其他信息start
+                            div.other-info{
+                                li.order-sum{
+                                    margin-bottom: 5px;
+                                    text-align: right;
+                                    em.red,span.red{
+                                        color: #f04141!important;
+                                    }
+                                    span.price{
+                                        
+                                    }
+                                }
+                            }
+                            //这是其他信息end
+                        }
+                         //这是确认信息使用的优惠价以及备注end
+                    }
+                    //确认商品end
+                //这是最后的商品信息展示
+                dt.real-price-box{
+                    height: 80px;
+                    line-height: 80px;
+                    padding: 0 24px;
+                    text-align: right;
+                    background: #e3f5ff;
+                    ul.delivery-address{
+                        float: left;
+                        margin-top: 15px;
+                        text-align: left;
+                        font-size: 13px;
+                        li{
+                            line-height: 25px;
+                        }
+                    }
+                    &>label{
+                        font-size: 24px;
+                    }
+                    label{
+                        color: #666;
+                        margin-right: 10px;
+                    }
+                    span.real-price{
+                        font-size: 24px;
+                    }
+                    span.red{
+                        color: #f04141!important;
+                    }
+                }
+                //这是最后的商品信息展示end
+            }
+            //这是核对订单详细信息end
+            //这是提交按钮的divstart
+            div.btn-box{
+                margin: 37px 0 0;
+                text-align: right;
+                button{
+                    width: 150px;
+                    height: 35px;
+                    font-size: 18px;
+                    border-radius: 3px;
+                    cursor: pointer;
+                }
+                button.back-soppingcar{
+                    margin-right: 15px;
+                    background: #f3f3f3;
+                    color: #666;
+                    border: 1px solid #e6e6e6;
+                    &:hover{
+                        background: #e6e6e6;
+                    }
+                }
+                button.btn-confirm{
+                    background: #ed4346;
+                    color: #fff;
+                    border: 1px solid #ed4346;
+                    &:hover{
+                        background: #cb3030;
+                        border-color: #cb3030;
+                    }
+                }
+            }
+//          这是提交按钮的divend
+        }
+    }
+}

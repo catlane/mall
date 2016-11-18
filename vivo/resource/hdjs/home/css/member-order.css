@@ -1,0 +1,41 @@
+.order-table{width:100%;table-layout:fixed}.order-table thead th{padding:16px 0;font-size:16px;font-weight:400}.order-table .prod-line td{border-right:0}.order-table .prod-line td.status,.order-table td.operation{border-left:1px solid #e3e3e3}.statistic-tags{margin:30px 0 15px;overflow:hidden}.statistic-tags li{float:left;padding-right:15px;margin-right:15px;height:25px;font-size:16px;line-height:25px;border-right:1px solid #dfdfdf}.statistic-tags li:last-child{border-right:0}.statistic-tags li a{color:#333}.statistic-tags li.on a{color:#008cd6}.list-caption{margin:20px 0;height:42px;border:1px solid #dbf0fb;background-color:#edf9ff}.list-caption .col{float:left;text-align:center;font-size:14px;color:#666;line-height:42px}.list-caption .col0{width:479px}.list-caption .col1,.order-table .col1{width:66px}.list-caption .col2,.order-table .col2{width:108px}.list-caption .col3,.order-table .col3{width:108px}.list-caption .col4,.order-table .col4{width:143px}.order-title li{float:left;padding:0;line-height:25px;margin-left:40px}.order-title .order-number{margin-left:25px}.order-title .order-number a:hover{color:#008cd7}.icon-huabei{display:inline-block;width:19px;height:19px;vertical-align:text-bottom;margin-right:2px;background:url(https://swsdl.vivo.com.cn/vivoshop/web/dist/img/prod/icon-huabei-new_4211459.png) no-repeat}.list-box .item{padding-right:174px}.list-box .prod-name{display:block;float:left;margin-right:5px;max-width:250px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.list-box .number{right:108px;width:66px}.list-box .price{width:108px;right:0}.gift .price{text-decoration:line-through}.operation-line td{height:58px;padding:0 10px;vertical-align:middle;text-align:right;font-size:16px;color:#666}.operation-line .btn{width:160px;height:38px;border-radius:3px}
+button{
+    cursor: pointer;
+}
+.operation-line .btn {
+    width: 160px;
+    height: 38px;
+    border-radius: 3px;
+}
+.btn-confirm {
+    background-color: #ed4346;
+    color: #fff;
+    border: 1px solid #ed4346;
+}
+.btn-confirm:hover{
+    background-color: #cb3030;
+    border: 1px solid #cb3030;
+}
+.no-record {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    padding: 150px 0!important;
+}
+.no-record.no-order img {
+    width: 151px;
+    height: 138px;
+}
+.no-record img {
+    display: inline-block!important;
+    margin: 0 0 20px!important;
+    vertical-align: middle;
+}
+
+.no-record span {
+    color: #888!important;
+    display: block!important;
+    font-size: 14px;
+}
+

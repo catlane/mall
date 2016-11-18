@@ -1,0 +1,22 @@
+[ 2016-09-28T14:32:37+08:00 ]EXCEPTION: Method web\admin\controller\Type::__empty() does not exist
+[ 2016-09-28T15:25:25+08:00 ]EXCEPTION: whereIn 参数错误
+[ 2016-09-28T15:25:46+08:00 ]EXCEPTION: whereIn 参数错误
+[ 2016-09-28T15:26:45+08:00 ]EXCEPTION: whereIn 参数错误
+[ 2016-09-28T16:01:38+08:00 ]EXCEPTION: web\admin\controller\Categroy 不存在
+[ 2016-09-28T16:02:54+08:00 ]EXCEPTION: web\admin\controller\Categroy 不存在
+[ 2016-09-28T16:06:21+08:00 ]EXCEPTION: web\admin\controller\Categroy 不存在
+[ 2016-09-28T16:07:29+08:00 ]EXCEPTION: web\admin\controller\Categroy 不存在
+[ 2016-09-28T16:35:03+08:00 ]EXCEPTION: SELECT * FROM category category INNER JOIN type type ON type_type_id = type_id  INNER JOIN category category ON type_id = type_id      ;BindParams:array (
+)42000;1066;Table/alias: 'category' non unique
+[ 2016-09-28T16:35:28+08:00 ]EXCEPTION: SELECT * FROM category category INNER JOIN type type ON type_type_id = type_id  INNER JOIN category category ON category_id = category_id      ;BindParams:array (
+)42000;1066;Table/alias: 'category' non unique
+[ 2016-09-28T16:35:36+08:00 ]EXCEPTION: SELECT * FROM category category INNER JOIN category category ON category_id = category_id      ;BindParams:array (
+)42000;1066;Table/alias: 'category' non unique
+[ 2016-09-28T16:46:53+08:00 ]EXCEPTION: Method web\admin\controller\Type::__empty() does not exist
+[ 2016-09-28T18:29:13+08:00 ]EXCEPTION: Method web\admin\controller\Type::__empty() does not exist
+[ 2016-09-28T18:30:45+08:00 ]EXCEPTION: Method web\admin\controller\Category::__empty() does not exist
+[ 2016-09-28T18:38:36+08:00 ]EXCEPTION: SELECT * FROM category  WHERE type_id = ?     ;BindParams:array (
+  1 => 20,
+)42S22;1054;Champ 'type_id' inconnu dans where clause
+[ 2016-09-28T19:03:23+08:00 ]EXCEPTION: whereIn 参数错误
+[ 2016-09-28T23:12:22+08:00 ]EXCEPTION: web\admin\controller\SystemSetting 不存在

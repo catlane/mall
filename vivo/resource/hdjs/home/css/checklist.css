@@ -1,0 +1,439 @@
+.main {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  border-top: 1px solid #f2f2f2;
+}
+.main .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main .wrapper .buy-steps {
+  margin: 65px 0;
+  height: 52px;
+  background: url(../other/shoppingcar/buy-process-bar_0a1afdc.png) 0 -90px no-repeat;
+}
+.main div.container div.wrapper dl.module-list dt.module-title {
+  height: 45px;
+  padding-left: 45px;
+  line-height: 45px;
+  color: #333;
+  font-size: 16px;
+  background: #f3f3f3;
+}
+.main div.container div.wrapper dl.module-list dt.module-title small {
+  margin-left: 30px;
+  font-size: 14px;
+  color: #666;
+}
+.main div.container div.wrapper dl.module-list dd {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.main div.container div.wrapper dl.module-list dd.address-info {
+  padding: 25px 40px;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list {
+  margin-right: -15px;
+  overflow: hidden;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li {
+  float: left;
+  position: relative;
+  width: 223px;
+  height: 153px;
+  margin-right: 14px;
+  margin-bottom: 10px;
+  padding: 0 22px;
+  font-size: 14px;
+  border: 1px solid #e3e3e3;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li p {
+  max-height: 54px;
+  overflow: hidden;
+  line-height: 18px;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li.address-item:hover label ul.operations {
+  display: block;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li.address-item label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li.address-item label p.item-top {
+  margin: 20px 0 15px;
+  overflow: hidden;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li.address-item label p.item-top span {
+  float: right;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li.address-item label p.item-top span:first-of-type {
+  float: left;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li.address-item label p:nth-of-type(2) span {
+  margin-left: 1px;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li.address-item label ul.operations {
+  position: absolute;
+  left: 22px;
+  bottom: 22px;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li.address-item label ul.operations li {
+  float: left;
+  margin-right: 10px;
+  line-height: 20px;
+  color: #008cd6;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  padding: 0;
+  border: 0;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li.on {
+  border: 0;
+  width: 225px;
+  height: 155px;
+  background: url(../other/checklist/border-address_60cc494.png) no-repeat;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li.new {
+  text-align: center;
+  line-height: 200px;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list li.new label {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+  background: url(../other/checklist/icon-add-32x32_16a3e66.png) center 46px no-repeat;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new {
+  display: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  clear: left;
+  font-size: 13px;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dt {
+  clear: left;
+  float: left;
+  width: 100px;
+  text-align: right;
+  height: 35px;
+  line-height: 35px;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dt span {
+  margin-right: 5px;
+  color: #f33;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dt.tel {
+  clear: none;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dd {
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  padding: 0;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dd span.error {
+  color: red;
+  display: inline;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dd input[type=text] {
+  width: 145px;
+  height: 20px;
+  padding: 3px 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dd input[type=text].address {
+  width: 481px;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dd select {
+  width: 159px;
+  margin-right: 5px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dd button {
+  width: 160px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 3px;
+  margin: 0px 15px 0 0;
+  cursor: pointer;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dd button.blue {
+  color: #fff;
+  background: #008cd6;
+  border: 1px solid #008cd6;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dd button.blue:hover {
+  background: #0272ad;
+  border-color: #0272ad;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dd button.cancel {
+  color: #666;
+  background: #f3f3f3;
+  border: 1px solid #e6e6e6;
+}
+.main div.container div.wrapper dl.module-list dd.address-info ul.adress-list dl.address-info-new dd button.cancel:hover {
+  background: #e6e6e6;
+}
+.main div.container div.wrapper dl.module-list dd.delivery-info div.pay-method {
+  display: inline-block;
+  width: 160px;
+  height: 35px;
+  margin-left: 40px;
+  color: #666;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  line-height: 35px;
+}
+.main div.container div.wrapper dl.module-list dd.delivery-info div.on {
+  border: 2px solid #008cd6;
+  height: 33px;
+  width: 158px;
+}
+.main div.container div.wrapper dl.module-list dd.delivery-info div.on i {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  right: -1px;
+  bottom: -1px;
+  background: url(../other/checklist/icon-selected_40af0b0.png) 0 0 no-repeat;
+}
+.main div.container div.wrapper dl.module-list dd.invoice-info div.tax-type {
+  display: inline-block;
+  width: 160px;
+  height: 35px;
+  margin-left: 40px;
+  color: #666;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  line-height: 35px;
+}
+.main div.container div.wrapper dl.module-list dd.invoice-info div.on {
+  border: 2px solid #008cd6;
+  height: 33px;
+  width: 158px;
+}
+.main div.container div.wrapper dl.module-list dd.invoice-info div.on i {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  right: -1px;
+  bottom: -1px;
+  background: url(../other/checklist/icon-selected_40af0b0.png) 0 0 no-repeat;
+}
+.main div.container div.wrapper dl.module-list dd.invoice-info label {
+  margin-left: 65px;
+}
+.main div.container div.wrapper dl.module-list dd.invoice-info label span.red {
+  color: #f04141 !important;
+}
+.main div.container div.wrapper dl.module-list dd.invoice-info label input {
+  width: 485px;
+  height: 20px;
+  padding: 3px 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.prod-list table.order-table {
+  margin-top: 0;
+  width: 100%;
+  color: #666;
+  border: 1px solid #e3e3e3;
+  table-layout: fixed;
+  text-align: center;
+  vertical-align: middle;
+  word-wrap: break-word;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.prod-list table.order-table th {
+  height: 44px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+  background: #fafafa;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.prod-list table.order-table td {
+  border-bottom: 1px solid #e3e3e3;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.prod-list table.order-table tbody.item-single tr.prod-line td.prod-pic {
+  vertical-align: middle;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.prod-list table.order-table tbody.item-single tr.prod-line td.prod-pic a img {
+  width: 120px;
+  height: 120px;
+  margin: 10px 0;
+  border: 0;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.prod-list table.order-table tbody.item-single tr.prod-line td.prod-name {
+  text-align: left;
+  height: 70px;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.prod-list table.order-table tbody.item-single tr.prod-line td.prod-name a {
+  display: inline-block;
+  width: 100%;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.prod-list table.order-table tbody.item-single tr.prod-line td.prod-name a:hover {
+  color: #008cd7;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.prod-list table.order-table tbody.item-single tr.prod-line td.prod-name span {
+  font-size: 14px;
+  font-weight: normal;
+  color: #9b9b9b;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box {
+  margin-top: 30px;
+  color: #666;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box ul li.coupon-info div.coupon-info-title {
+  font-size: 16px;
+  line-height: 18px;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box ul li.coupon-info div.coupon-info-title i {
+  float: left;
+  display: block;
+  width: 13px;
+  height: 18px;
+  margin-right: 7px;
+  background: url(../other/checklist/icon-mark_8c18b9a.png) 0 0 no-repeat;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box ul li.coupon-info div.info-box label {
+  height: 40px;
+  line-height: 40px;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box ul li.coupon-info div.info-box label select {
+  width: 139px;
+  margin-right: 50px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box ul li.coupon-info div.info-box label input[type=text] {
+  width: 145px;
+  padding: 3px 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box ul li.coupon-info div.info-box button {
+  width: 85px;
+  height: 25px;
+  margin-left: 15px;
+  line-height: 23px;
+  border-radius: 3px;
+  color: #fff;
+  background: #008cd6;
+  border: 1px solid #008cd6;
+  cursor: pointer;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box ul li.coupon-info div.info-box button:hover {
+  background: #0272ad;
+  border-color: #0272ad;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box ul li.order-remark {
+  margin-top: 20px;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box ul li.order-remark div.info-box label {
+  font-size: 16px;
+  line-height: 0;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box ul li.order-remark div.info-box label i {
+  float: left;
+  display: block;
+  width: 13px;
+  height: 18px;
+  margin-right: 7px;
+  background: url(../other/checklist/icon-mark_8c18b9a.png) 0 0 no-repeat;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box ul li.order-remark div.info-box textarea {
+  width: 800px;
+  vertical-align: top;
+  overflow: auto;
+  resize: none;
+  padding: 3px 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box div.other-info li.order-sum {
+  margin-bottom: 5px;
+  text-align: right;
+}
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box div.other-info li.order-sum em.red,
+.main div.container div.wrapper dl.module-list dd.confirm-goods div.order-info-box div.other-info li.order-sum span.red {
+  color: #f04141 !important;
+}
+.main div.container div.wrapper dl.module-list dt.real-price-box {
+  height: 80px;
+  line-height: 80px;
+  padding: 0 24px;
+  text-align: right;
+  background: #e3f5ff;
+}
+.main div.container div.wrapper dl.module-list dt.real-price-box ul.delivery-address {
+  float: left;
+  margin-top: 15px;
+  text-align: left;
+  font-size: 13px;
+}
+.main div.container div.wrapper dl.module-list dt.real-price-box ul.delivery-address li {
+  line-height: 25px;
+}
+.main div.container div.wrapper dl.module-list dt.real-price-box > label {
+  font-size: 24px;
+}
+.main div.container div.wrapper dl.module-list dt.real-price-box label {
+  color: #666;
+  margin-right: 10px;
+}
+.main div.container div.wrapper dl.module-list dt.real-price-box span.real-price {
+  font-size: 24px;
+}
+.main div.container div.wrapper dl.module-list dt.real-price-box span.red {
+  color: #f04141 !important;
+}
+.main div.container div.wrapper div.btn-box {
+  margin: 37px 0 0;
+  text-align: right;
+}
+.main div.container div.wrapper div.btn-box button {
+  width: 150px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.main div.container div.wrapper div.btn-box button.back-soppingcar {
+  margin-right: 15px;
+  background: #f3f3f3;
+  color: #666;
+  border: 1px solid #e6e6e6;
+}
+.main div.container div.wrapper div.btn-box button.back-soppingcar:hover {
+  background: #e6e6e6;
+}
+.main div.container div.wrapper div.btn-box button.btn-confirm {
+  background: #ed4346;
+  color: #fff;
+  border: 1px solid #ed4346;
+}
+.main div.container div.wrapper div.btn-box button.btn-confirm:hover {
+  background: #cb3030;
+  border-color: #cb3030;
+}
+/*# sourceMappingURL=checklist.css.map */

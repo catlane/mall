@@ -1,0 +1,199 @@
+.c {
+  float: left;
+  width: 907px;
+  padding: 0 30px 30px;
+  min-height: 530px;
+  color: #666;
+  background: #fff;
+}
+.c .member-order-list dt {
+  height: 60px;
+  line-height: 70px;
+  font-size: 18px;
+  color: #000;
+  border-bottom: 2px solid #f1f1f1;
+}
+.c .member-order-list dd {
+  color: #333;
+}
+.c .member-order-list dd .statistic-tags {
+  margin: 30px 0 15px;
+  overflow: hidden;
+}
+.c .member-order-list dd .statistic-tags li {
+  float: left;
+  padding-right: 15px;
+  margin-right: 15px;
+  height: 25px;
+  font-size: 16px;
+  line-height: 25px;
+  border-right: 1px solid #dfdfdf;
+}
+.c .member-order-list dd .statistic-tags li:last-of-type {
+  border: 0;
+}
+.c .member-order-list dd .statistic-tags li a {
+  color: #333;
+}
+.c .member-order-list dd .statistic-tags .on a {
+  color: #008cd6;
+}
+.c .member-order-list dd .list-caption {
+  margin: 20px 0;
+  height: 42px;
+  border: 1px solid #dbf0fb;
+  background-color: #edf9ff;
+}
+.c .member-order-list dd .list-caption .col {
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  line-height: 42px;
+}
+.c .member-order-list dd .list-caption .col10 {
+  width: 479px;
+}
+.c .member-order-list dd .list-caption .col11 {
+  width: 66px;
+}
+.c .member-order-list dd .list-caption .col12 {
+  width: 108px;
+}
+.c .member-order-list dd .list-caption .col13 {
+  width: 108px;
+}
+.c .member-order-list dd .list-caption .col14 {
+  width: 143px;
+}
+.c .member-order-list dd .order-table {
+  table-layout: fixed;
+  margin-top: 20px;
+  width: 100%;
+  color: #666;
+  border: 1px solid #e3e3e3;
+  text-align: center;
+  vertical-align: middle;
+  word-wrap: break-word;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.c .member-order-list dd .order-table td {
+  border-right: 1px solid #e3e3e3;
+  border-top: 1px solid #e3e3e3;
+}
+.c .member-order-list dd .order-table th {
+  height: 44px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+  background-color: #fafafa;
+  text-align: left;
+}
+.c .member-order-list dd .order-table th li.order-number {
+  margin-left: 25px;
+  float: left;
+  line-height: 25px;
+}
+.c .member-order-list dd .order-table th li.order-number a {
+  color: #008cd7;
+}
+.c .member-order-list dd .order-table th li.order-time {
+  float: left;
+  padding: 0;
+  line-height: 25px;
+  margin-left: 40px;
+}
+.c .member-order-list dd .order-table .prod-line td {
+  border-right: 0;
+}
+.c .member-order-list dd .order-table .prod-line .prod-pic {
+  border-right: 0;
+}
+.c .member-order-list dd .order-table .prod-line .prod-pic img {
+  width: 120px;
+  height: 120px;
+  margin: 10px 0;
+}
+.c .member-order-list dd .order-table .prod-line .prod-name {
+  border-right: 0;
+  text-align: left;
+  height: 70px;
+}
+.c .member-order-list dd .order-table .prod-line .prod-name a {
+  display: inline-block;
+  width: 100%;
+  color: #333;
+  white-space: nowrap;
+  transition: .3s;
+}
+.c .member-order-list dd .order-table .prod-line .prod-name a:hover {
+  color: #008cd7;
+}
+.c .member-order-list dd .order-table .prod-line .status {
+  border-left: 1px solid #e3e3e3;
+  border-right: 0;
+}
+.c .member-order-list dd .order-table .prod-line .operation {
+  border-left: 1px solid #e3e3e3;
+  border-right: 0;
+}
+.c .member-order-list dd .order-table .prod-line .operation a {
+  color: #008cd7;
+}
+.c .member-order-list dd .order-table .attach-table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+.c .member-order-list dd .order-table .attach-table a:hover {
+  color: #008cd7;
+}
+.c .member-order-list dd .order-table .attach-table td {
+  height: 45px;
+  border: 0;
+}
+.c .member-order-list dd .order-table .attach-table .gift .title {
+  padding-left: 0;
+  text-align: left;
+}
+.c .member-order-list dd .order-table .attach-table .gift .name {
+  text-align: left;
+  position: relative;
+  word-wrap: normal\9;
+}
+.c .member-order-list dd .order-table .attach-table .gift .name .figure {
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  overflow: hidden;
+  vertical-align: middle;
+  border: 1px solid #e3e3e3;
+}
+.c .member-order-list dd .order-table .attach-table .gift .name .figure img {
+  width: 100%;
+  height: auto;
+}
+.c .member-order-list dd .order-table .attach-table .gift .name p {
+  margin-left: 30px;
+  color: #666;
+  white-space: nowrap;
+}
+.c .member-order-list dd .order-table .operation-line td {
+  height: 58px;
+  padding: 0 10px;
+  vertical-align: middle;
+  text-align: right;
+  font-size: 16px;
+  color: #666;
+}
+.c .member-order-list dd .order-table .operation-line td .red {
+  color: #f04141 !important;
+}
+.c .member-order-list dd .order-table .operation-line td dfn {
+  font-style: normal;
+}
+/*# sourceMappingURL=my_order.css.map */

@@ -1,0 +1,57 @@
+[ 2016-09-27T00:09:15+08:00 ]EXCEPTION: UPDATE brands  WHERE brands_id = ? ;BindParams:array (
+  1 => NULL,
+)42000;1064;Erreur de syntaxe près de 'WHERE brands_id = NULL' à la ligne 1
+[ 2016-09-27T00:10:41+08:00 ]EXCEPTION: UPDATE brands  WHERE brands_id = ? ;BindParams:array (
+  1 => '2',
+)42000;1064;Erreur de syntaxe près de 'WHERE brands_id = '2'' à la ligne 1
+[ 2016-09-27T00:10:51+08:00 ]EXCEPTION: UPDATE brands  WHERE brands_id = ? ;BindParams:array (
+  1 => '2',
+)42000;1064;Erreur de syntaxe près de 'WHERE brands_id = '2'' à la ligne 1
+[ 2016-09-27T00:21:58+08:00 ]EXCEPTION: Method web\admin\controller\Brands::__empty() does not exist
+[ 2016-09-27T00:37:35+08:00 ]EXCEPTION: Method web\admin\controller\Brands::__empty() does not exist
+[ 2016-09-27T00:38:35+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/mumber-edit.html
+[ 2016-09-27T20:29:37+08:00 ]EXCEPTION: Method web\admin\controller\Type::__empty() does not exist
+[ 2016-09-27T20:39:23+08:00 ]EXCEPTION: INSERT INTO type_attr (`type_attr_name`,`type_attr_value`,`type_attr_type`,`type_attr_id`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => '颜色',
+  2 => '红色|蓝色|绿色|紫色',
+  3 => '1',
+  4 => '1',
+)23000;1062;Duplicata du champ '1' pour la clef 'PRIMARY'
+[ 2016-09-27T20:39:41+08:00 ]EXCEPTION: INSERT INTO type_attr (`type_attr_name`,`type_attr_value`,`type_attr_type`,`type_attr_id`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => '颜色',
+  2 => '红色|蓝色|绿色|紫色',
+  3 => '1',
+  4 => '1',
+)23000;1062;Duplicata du champ '1' pour la clef 'PRIMARY'
+[ 2016-09-27T20:40:47+08:00 ]EXCEPTION: INSERT INTO type_attr (`type_attr_name`,`type_attr_value`,`type_attr_type`,`type_attr_id`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => '颜色',
+  2 => '红色|蓝色|绿色|紫色',
+  3 => '1',
+  4 => '1',
+)23000;1062;Duplicata du champ '1' pour la clef 'PRIMARY'
+[ 2016-09-27T20:41:16+08:00 ]EXCEPTION: INSERT INTO type_attr (`type_attr_name`,`type_attr_value`,`type_attr_type`,`type_attr_id`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => '颜色',
+  2 => '红色|蓝色|绿色',
+  3 => '1',
+  4 => '1',
+)23000;1062;Duplicata du champ '1' pour la clef 'PRIMARY'
+[ 2016-09-27T20:41:24+08:00 ]EXCEPTION: INSERT INTO type_attr (`type_attr_name`,`type_attr_value`,`type_attr_type`,`type_attr_id`) VALUES(?,?,?,?) ;BindParams:array (
+  1 => '颜色',
+  2 => '红色|蓝色|绿色',
+  3 => '1',
+  4 => '1',
+)23000;1062;Duplicata du champ '1' pour la clef 'PRIMARY'
+[ 2016-09-27T20:42:19+08:00 ]EXCEPTION: INSERT INTO type_attr (`type_attr_name`,`type_attr_value`,`type_attr_type`,`type_attr_id`,`type_type_id`) VALUES(?,?,?,?,?) ;BindParams:array (
+  1 => '颜色',
+  2 => '红色|蓝色|绿色',
+  3 => '1',
+  4 => '1',
+  5 => '5',
+)23000;1062;Duplicata du champ '1' pour la clef 'PRIMARY'
+[ 2016-09-27T20:42:31+08:00 ]EXCEPTION: INSERT INTO type_attr (`type_attr_name`,`type_attr_value`,`type_attr_type`,`type_attr_id`,`type_type_id`) VALUES(?,?,?,?,?) ;BindParams:array (
+  1 => '颜色',
+  2 => '红色|蓝色|绿色',
+  3 => '1',
+  4 => '1',
+  5 => '5',
+)23000;1062;Duplicata du champ '1' pour la clef 'PRIMARY'

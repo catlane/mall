@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1fe90640-cb4b-43a7-a87f-a9a68a70f217" name="ASd" url="http://c70_yangyuhui.houdunphp.com/">
+        <fileTransfer host="c70_yangyuhui.houdunphp.com" port="21" rootFolder="/wwwroot/vivo" password="dfccdfcfdfc3df9fdf98df9adf9bdf99df9bdf9e" username="c70_yangyuhui">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

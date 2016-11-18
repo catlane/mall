@@ -1,0 +1,4 @@
+[ 2016-10-01T20:25:29+08:00 ]EXCEPTION: SELECT * FROM commodity commodity INNER JOIN commodity_attr commodity_attr ON commodity_id = commodity_commodity_id  INNER JOIN about_commodity about_commodity ON commodity = about_commodity_commodity_id      ;BindParams:array (
+)42S22;1054;Champ 'commodity' inconnu dans on clause
+[ 2016-10-01T20:28:06+08:00 ]EXCEPTION: SELECT * FROM commodity commodity INNER JOIN about_commodity about_commodity ON commodity = about_commodity_commodity_id      ;BindParams:array (
+)42S22;1054;Champ 'commodity' inconnu dans on clause

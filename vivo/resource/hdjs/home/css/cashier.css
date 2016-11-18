@@ -1,0 +1,368 @@
+body {
+  font: 12px/1.5 "Microsoft Yahei", Arial;
+  margin: 0;
+}
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+a {
+  transition: .3s;
+}
+a:hover {
+  color: #008cd7;
+}
+div.head {
+  background: #f7f7f7;
+}
+div.head div.login-bar {
+  width: 1000px;
+  margin: 0 auto;
+  color: #5a5a5a;
+  height: 28px;
+  line-height: 28px;
+}
+div.head div.login-bar .fr {
+  float: right;
+}
+div.head div.login-bar .fr li {
+  margin-right: 15px;
+  margin-left: 15px;
+  float: left;
+}
+div.head div.login-bar .fr li:last-of-type {
+  margin-left: 10px;
+}
+div.head div.login-bar .fr li a {
+  color: #5a5a5a;
+}
+div.head div.login-bar .fr li a:hover {
+  color: #008cd7;
+}
+.w {
+  width: 1000px;
+  margin: 0 auto;
+}
+.cash-logo {
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #f2f2f2;
+  background: #fff;
+}
+.cash-logo img {
+  padding: 20px 0;
+}
+div.main {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+div.main div.order-info {
+  float: right;
+  width: 100%;
+}
+div.main div.order-info div.order-info-less {
+  overflow: hidden;
+  margin-top: 60px;
+  margin-bottom: 45px;
+  padding-left: 30px;
+  background: url(../other/master/succ-tick.png) 0px center no-repeat;
+}
+div.main div.order-info div.order-info-less div.left {
+  float: left;
+  margin-left: 20px;
+}
+div.main div.order-info div.order-info-less div.left p.orderid-d {
+  font-size: 18px;
+  color: #484848;
+}
+div.main div.order-info div.order-info-less div.left p.orderid-cancle {
+  font-size: 13px;
+  color: #484848;
+  margin-top: 10px;
+}
+div.main div.order-info div.order-info-less div.left p.orderid-cancle span {
+  color: #f04141;
+}
+div.main div.order-info div.order-info-less div.right {
+  float: right;
+}
+div.main div.order-info div.order-info-less div.right p {
+  font-size: 18px;
+  color: #484848;
+}
+div.main div.order-info div.order-info-less div.right p span {
+  font-size: 24px;
+  padding: 0 4px;
+  color: #f04141;
+}
+div.main div.order-info div.order-info-less div.right a {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #008cd6;
+  float: right;
+}
+div.main div.order-info div.order-info-less div.right a div.triangle {
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #429edc;
+}
+div.main div.order-info div.order-details {
+  display: none;
+  width: 90%;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: -25px;
+}
+div.main div.order-info div.order-details ul {
+  padding: 10px 30px;
+}
+div.main div.order-info div.order-details ul li {
+  line-height: 25px;
+  color: #9d9d9d;
+  font-size: 13px;
+}
+div.main div.pay-way-outer {
+  min-height: 180px;
+  position: relative;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+div.main div.pay-way-outer div.pay-wraper {
+  overflow: hidden;
+  padding: 45px;
+  border: solid 4px #e3f5ff;
+}
+div.main div.pay-way-outer div.pay-wraper .pay-item {
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+  border: solid 1px #b3b3b3;
+  background-image: url(../other/master/pay-icon.jpg);
+  background-repeat: no-repeat;
+}
+div.main div.pay-way-outer div.pay-wraper .pay-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+div.main div.pay-way-outer div.pay-wraper div.rec-alipay {
+  overflow: hidden;
+}
+div.main div.pay-way-outer div.pay-wraper div.rec-alipay .selected {
+  border-color: #f04141;
+  border-width: 2px;
+  width: 178px;
+  height: 48px;
+  position: relative;
+}
+div.main div.pay-way-outer div.pay-wraper div.rec-alipay .selected:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 23px;
+  height: 16px;
+  background: url(../other/master/tick.png) center center no-repeat;
+  top: 0;
+  right: 0;
+}
+div.main div.pay-way-outer div.pay-wraper div.rec-alipay div.zhifubao {
+  float: left;
+  background-position: 0px 0px;
+}
+div.main div.pay-way-outer div.pay-wraper div.rec-alipay div.other-pay {
+  padding: 0px 32px;
+  height: 50px;
+  border: dashed 1px #d0d0d0;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+  margin-left: 35px;
+  color: #008cd6;
+  background: url(../other/master/otherpay-arrowdown.png) 90% center no-repeat;
+}
+div.main div.pay-way-outer div.pay-wraper div.rec-alipay div.order-total {
+  float: right;
+  font-size: 16px;
+  color: #696969;
+  line-height: 50px;
+}
+div.main div.pay-way-outer div.pay-wraper div.rec-alipay div.order-total span {
+  font-size: 18px;
+  color: #f04141;
+  padding: 0px 4px;
+}
+div.main div.pay-way-outer div.pay-wraper div.other-paylist {
+  overflow: hidden;
+  display: none;
+  margin: 40px 0px 25px 0px;
+}
+div.main div.pay-way-outer div.pay-wraper div.other-paylist .selected {
+  border-color: #f04141;
+  border-width: 2px;
+  width: 178px;
+  height: 48px;
+  position: relative;
+}
+div.main div.pay-way-outer div.pay-wraper div.other-paylist .selected:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 23px;
+  height: 16px;
+  background: url(../other/master/tick.png) center center no-repeat;
+  top: 0;
+  right: 0;
+}
+div.main div.pay-way-outer div.pay-wraper div.other-paylist ul li {
+  margin-bottom: 40px;
+  float: left;
+  margin-right: 25px;
+}
+div.main div.pay-way-outer div.pay-wraper div.other-paylist ul li.shaoma {
+  background-position: 0px -50px;
+}
+div.main div.pay-way-outer div.pay-wraper div.other-paylist ul li.weixin {
+  background-position: 0px -100px;
+}
+div.main div.pay-way-outer div.pay-wraper div.other-paylist ul li.caifutong {
+  background-position: 0px -150px;
+}
+div.main div.pay-way-outer div.pay-wraper div.other-paylist ul li.zaixian {
+  background-position: 0px -200px;
+}
+div.main div.pay-way-outer div.pay-wraper div.other-paylist ul li.huabei {
+  background-position: 0px -250px;
+}
+div.main div.pay-way-outer div.pay-btn {
+  padding-top: 18px;
+}
+div.main div.pay-way-outer div.pay-btn a {
+  float: right;
+  width: 175px;
+  line-height: 38px;
+  border-radius: 4px;
+  background-color: #f04141;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+div.footer {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-top: solid 1px #ccc;
+}
+div.footer .copyright {
+  float: left;
+  height: 27px;
+  line-height: 27px;
+  color: #6E6E6F;
+}
+div.footer .sns-box {
+  color: #6E6E6F;
+  position: relative;
+  float: right;
+}
+div.footer .sns-box a {
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 8px;
+  transition: .3s;
+  border-radius: 10%;
+  vertical-align: middle;
+}
+div.footer .sns-box a b {
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+  display: inline-block;
+  background: url(../other/master/sns-ico.png) no-repeat;
+  transition: .3s;
+}
+div.footer .sns-box .a1 b {
+  background-position: 0 0;
+}
+div.footer .sns-box .a1:hover {
+  background: #e52c42;
+}
+div.footer .sns-box .a1:hover b {
+  background-position: 0 -27px;
+}
+div.footer .sns-box .a2 b {
+  background-position: -27px 0;
+}
+div.footer .sns-box .a2:hover {
+  background: #14addf;
+}
+div.footer .sns-box .a2:hover b {
+  background-position: -27px -27px;
+}
+div.footer .sns-box .a3 b {
+  background-position: -108px 0;
+}
+div.footer .sns-box .a3:hover {
+  background: #056be8;
+}
+div.footer .sns-box .a3:hover b {
+  background-position: -108px -27px;
+}
+div.footer .sns-box .a4 b {
+  background-position: -54px 0;
+}
+div.footer .sns-box .a4:hover {
+  background: #20a900;
+}
+div.footer .sns-box .a4:hover b {
+  background-position: -54px -27px;
+}
+div.footer .sns-box .a4:hover div {
+  display: block;
+}
+div.footer .sns-box .a4 div {
+  width: 143px;
+  height: 143px;
+  background: #fff;
+  position: absolute;
+  bottom: 45px;
+  right: -56px;
+  z-index: 99;
+  display: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+div.footer .sns-box .a4 div img {
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+div.footer .sns-box .a4 div em {
+  width: 18px;
+  height: 12px;
+  overflow: hidden;
+  background: url(../other/master/casher-logo.png) no-repeat;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  margin-left: -9px;
+}
+/*# sourceMappingURL=cashier.css.map */

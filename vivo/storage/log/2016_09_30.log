@@ -1,0 +1,5 @@
+[ 2016-09-30T10:01:30+08:00 ]EXCEPTION: Method web\admin\controller\Commodity::__empty() does not exist
+[ 2016-09-30T10:38:42+08:00 ]EXCEPTION: Method web\admin\controller\Commodity::__empty() does not exist
+[ 2016-09-30T11:07:25+08:00 ]EXCEPTION: Method web\admin\controller\Commodity::__empty() does not exist
+[ 2016-09-30T15:45:28+08:00 ]EXCEPTION: Method web\admin\controller\Commodity::__empty() does not exist
+[ 2016-09-30T15:45:36+08:00 ]EXCEPTION: Method web\admin\controller\Commodity::__empty() does not exist

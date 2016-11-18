@@ -1,0 +1,26 @@
+[ 2016-10-19T00:09:08+08:00 ]EXCEPTION: 模板不存在:./web/home/view/
+[ 2016-10-19T00:42:21+08:00 ]EXCEPTION: show columns from category_id ;BindParams:array (
+)42S02;1146;La table 'vivo.category_id' n'existe pas
+[ 2016-10-19T00:55:16+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-19T03:41:52+08:00 ]EXCEPTION: UPDATE member_notes  WHERE member_notes_user_id = ? ;BindParams:array (
+  1 => '9',
+)42000;1064;Erreur de syntaxe près de 'WHERE member_notes_user_id = '9'' à la ligne 1
+[ 2016-10-19T03:45:53+08:00 ]EXCEPTION: SELECT * FROM commodity  WHERE commodity = ?     ;BindParams:array (
+  1 => '33',
+)42S22;1054;Champ 'commodity' inconnu dans where clause
+[ 2016-10-19T14:55:30+08:00 ]EXCEPTION: show columns from category ;BindParams:array (
+)42S02;1146;La table 'vivo.category' n'existe pas
+[ 2016-10-19T16:49:32+08:00 ]EXCEPTION: select * from commodity where commodity_name like ? ;BindParams:array (
+  1 => '%vivo%',
+)42S02;1146;La table 'vivo.commodity' n'existe pas
+[ 2016-10-19T17:27:54+08:00 ]EXCEPTION: whereIn 参数错误
+[ 2016-10-19T17:53:40+08:00 ]EXCEPTION: SELECT * FROM vivo_category      LIMIT -5 ,5 ;BindParams:array (
+)42000;1064;Erreur de syntaxe près de '-5 ,5' à la ligne 1
+[ 2016-10-19T17:58:43+08:00 ]EXCEPTION: SELECT * FROM vivo_commodity  WHERE  category_id IN (?,?,?,?,?,?)    LIMIT -2 ,2 ;BindParams:array (
+  1 => '5',
+  2 => '29',
+  3 => '33',
+  4 => '30',
+  5 => '31',
+  6 => 2,
+)42000;1064;Erreur de syntaxe près de '-2 ,2' à la ligne 1

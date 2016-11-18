@@ -1,0 +1,85 @@
+/*这是发票说明*/
+.c {
+  float: left;
+  width: 907px;
+  padding: 0 30px 30px;
+  min-height: 530px;
+  color: #666;
+  background: #fff;
+}
+.c .c-title {
+  height: 60px;
+  line-height: 70px;
+  font-size: 18px;
+  color: #000;
+  border-bottom: 2px solid #f1f1f1;
+}
+.c .c-title h1 {
+  float: left;
+  color: #333;
+  font-size: 18px;
+}
+.c .c {
+  text-align: justify;
+  word-break: break-all;
+}
+.c .declare {
+  padding: 15px 0 18px;
+  color: #8a8a8a;
+  font-size: 14px;
+  line-height: 25px;
+}
+.c .c > ol {
+  padding-bottom: 20px;
+  color: #707070;
+  font-size: 16px;
+  line-height: 28px;
+}
+.c .prompt-title {
+  padding-top: 25px;
+  color: #00a9ff;
+  font-size: 22px;
+}
+.c .prompt-title img {
+  vertical-align: top;
+  margin-right: 5px;
+  width: 28px;
+  height: 28px;
+}
+.c .c > ol > li > ol {
+  padding-left: 25px;
+}
+.c .c > ol > li > ol > li:before {
+  c: "";
+  float: left;
+  margin: 6px 0 0 -21px;
+  width: 18px;
+  height: 18px;
+  background: center center no-repeat;
+}
+.c .c > ol > li > ol > li.c1:before {
+  background-image: url("https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/icon-c1_05fc445.jpg");
+}
+.c .c > ol > li > ol > li.c2:before {
+  background-image: url("https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/icon-c2_be8a83d.jpg");
+}
+.c .c > ol > li > ol > li.c3:before {
+  background-image: url("https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/icon-c3_12f8580.jpg");
+}
+.c .c > ol > li > ol > li.c4:before {
+  background-image: url("https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/icon-c4_1f28e98.jpg");
+}
+.c .c > ol > li > ol > li.c5:before {
+  background-image: url("https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/icon-c5_4479311.jpg");
+}
+.c .special-prompt-title {
+  color: #00a1e9;
+  font-size: 18px;
+}
+.c .letter {
+  padding-left: 28px;
+}
+.c .letter span {
+  margin-left: -28px;
+}
+/*# sourceMappingURL=invoice-declare.css.map */

@@ -1,0 +1,78 @@
+//这是个人资料
+.c{
+    float: left;
+    width: 907px;
+    padding: 0 30px 30px;
+    min-height: 530px;
+    color: #666;
+    background: #fff;
+    dl.member-order-list{
+        dt.module-title{
+            height: 60px;
+            line-height: 70px;
+            font-size: 18px;
+            color: #000;
+            border-bottom: 2px solid #f1f1f1;
+        }
+        dd.module-item{
+            color: #333;
+            table.form-table{
+                width: 100%;
+                table-layout: fixed;
+                margin: 30px 0 50px;
+                border-collapse: collapse;
+                border-spacing: 0;
+                th,td{
+                    padding: 15px 5px;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                th{
+                    text-align: right;
+                }
+                td{
+                    text-align: left;
+                    color: #666;
+                }
+                span.red{
+                    color: #f04141!important;
+                }
+                input[type=text]{
+                    padding: 3px 6px;
+                    border: 1px solid #ccc;
+                    border-radius: 2px;
+                }
+                .user-name{
+                    width: 300px;
+                }
+                .error-style{
+                    display: inline;
+                    color: red;
+                }
+                label{
+                    margin-right: 20px;
+                    cursor: pointer;
+                }
+                select{
+                    padding: 3px;
+                    border: 1px solid #ccc;
+                    border-radius: 3px;
+                }
+                button{
+                    width: 160px;
+                    height: 35px;
+                    border-radius: 2px;
+                    font-size: 18px;
+                    color: #fff;
+                    background-color: #008cd6;
+                    border: 1px solid #008cd6;
+                    cursor: pointer; 
+                    &:hover{
+                        background-color: #0272ad;
+                        border-color: #0272ad;
+                    }
+                }
+            }
+        }
+    }
+}

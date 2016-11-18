@@ -1,0 +1,46 @@
+/*这是发票说明*/
+.c {
+  float: left;
+  width: 907px;
+  padding: 0 30px 30px;
+  min-height: 530px;
+  color: #666;
+  background: #fff;
+}
+.c .c-title {
+  height: 60px;
+  line-height: 70px;
+  font-size: 18px;
+  color: #000;
+  border-bottom: 2px solid #f1f1f1;
+}
+.c .c-title h1 {
+  float: left;
+  color: #333;
+  font-size: 18px;
+}
+.c .img {
+  margin: 65px 0;
+  text-align: center;
+}
+.c img {
+  vertical-align: middle;
+}
+.c dl {
+  margin: 0 65px 0 77px;
+  color: #333;
+}
+.c dt {
+  font-size: 20px;
+}
+.c dd {
+  font-size: 14px;
+  line-height: 26px;
+  padding-left: 29px;
+  background: 0 6px no-repeat url("https://swsdl.vivo.com.cn/vivoshop/web/dist/img/help/list-style-image_8338f68.png");
+}
+.c dt,
+.c dd {
+  padding-bottom: 25px;
+}
+/*# sourceMappingURL=coupon-declare.css.map */

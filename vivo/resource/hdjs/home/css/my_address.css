@@ -1,0 +1,260 @@
+.c {
+  float: left;
+  width: 907px;
+  padding: 0 30px 30px;
+  min-height: 530px;
+  color: #666;
+  background: #fff;
+}
+.c a {
+  cursor: pointer;
+}
+.c dl.member-order-list dt.module-title {
+  height: 60px;
+  line-height: 70px;
+  font-size: 18px;
+  color: #000;
+  border-bottom: 2px solid #f1f1f1;
+}
+.c dl.member-order-list dt.module-title p.left {
+  float: left;
+  line-height: 60px;
+}
+.c dl.member-order-list dt.module-title p.left strong {
+  font-weight: 400;
+  color: #008cd6;
+}
+.c dl.member-order-list dt.module-title p.left span {
+  color: #999;
+  font-size: 14px;
+  line-height: 100%;
+}
+.c dl.member-order-list dt.module-title p.right {
+  float: right;
+  line-height: normal;
+}
+.c dl.member-order-list dt.module-title p.right span.add {
+  line-height: 58px;
+  vertical-align: middle;
+}
+.c dl.member-order-list dt.module-title p.right a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 16px;
+  vertical-align: middle;
+  cursor: pointer;
+  background: no-repeat url(../other/my/add-address_68b1568.png);
+}
+.c dl.member-order-list dt.module-title p.right a:hover {
+  background: no-repeat url(../other/my/add-address-hover_2949a21.png);
+}
+.c dl.member-order-list dd.edit-box {
+  display: none;
+}
+.c dl.member-order-list dd.edit-box p {
+  line-height: 58px;
+  padding-left: 55px;
+  font-size: 16px;
+  color: #666;
+  background-color: transparent;
+  border-bottom: 1px solid #eee;
+}
+.c dl.member-order-list dd.edit-box form {
+  margin: 50px 0;
+}
+.c dl.member-order-list dd.edit-box form fieldset {
+  border: 0;
+}
+.c dl.member-order-list dd.edit-box form table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.c dl.member-order-list dd.edit-box form table th {
+  color: #666;
+  font-weight: 400;
+  width: 150px;
+  text-align: right;
+}
+.c dl.member-order-list dd.edit-box form table th strong {
+  color: #e50404;
+  font-size: 16px;
+  position: relative;
+  top: 4px;
+  font-weight: 400;
+}
+.c dl.member-order-list dd.edit-box form table td {
+  padding: 10px 20px;
+  text-align: left;
+  color: #666;
+}
+.c dl.member-order-list dd.edit-box form table td select {
+  width: 159px;
+  margin-right: 5px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.c dl.member-order-list dd.edit-box form table td input[type=text] {
+  height: 29px;
+  line-height: 29px;
+  border: 1px solid #eee;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+.c dl.member-order-list dd.edit-box form table td input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.c dl.member-order-list dd.edit-box form table td input[type=button],
+.c dl.member-order-list dd.edit-box form table td input[type=submit],
+.c dl.member-order-list dd.edit-box form table td input[type=reset] {
+  cursor: pointer;
+  width: 160px;
+  height: 35px;
+  border-radius: 3px;
+  font-family: "Microsoft Yahei", Arial;
+}
+.c dl.member-order-list dd.edit-box form table td input[type=button].btn-blue,
+.c dl.member-order-list dd.edit-box form table td input[type=submit].btn-blue,
+.c dl.member-order-list dd.edit-box form table td input[type=reset].btn-blue {
+  color: #fff;
+  background-color: #008cd6;
+  border: 1px solid #008cd6;
+}
+.c dl.member-order-list dd.edit-box form table td input[type=button].btn-blue:hover,
+.c dl.member-order-list dd.edit-box form table td input[type=submit].btn-blue:hover,
+.c dl.member-order-list dd.edit-box form table td input[type=reset].btn-blue:hover {
+  background-color: #0272ad;
+  border-color: #0272ad;
+}
+.c dl.member-order-list dd.edit-box form table td input[type=button].btn-cancel,
+.c dl.member-order-list dd.edit-box form table td input[type=submit].btn-cancel,
+.c dl.member-order-list dd.edit-box form table td input[type=reset].btn-cancel {
+  background-color: #f3f3f3;
+  color: #666;
+  border: 1px solid #e6e6e6;
+}
+.c dl.member-order-list dd.edit-box form table td input[type=button].btn-cancel:hover,
+.c dl.member-order-list dd.edit-box form table td input[type=submit].btn-cancel:hover,
+.c dl.member-order-list dd.edit-box form table td input[type=reset].btn-cancel:hover {
+  background-color: #e6e6e6;
+}
+.c dl.member-order-list dd.edit-box form table td input[type=button] {
+  margin-right: 30px;
+}
+.c dl.member-order-list dd.edit-box form table td label {
+  color: #999;
+  vertical-align: middle;
+}
+.c dl.member-order-list dd.edit-box form table td span.error-style {
+  color: red;
+  display: inline;
+}
+.c dl.member-order-list dd.edit-box form table td input.address {
+  width: 555px;
+}
+.c dl.member-order-list dd.edit-box form table td.phone .p-mobile {
+  float: left;
+  width: 225px;
+}
+.c dl.member-order-list dd.edit-box form table td.phone .p-mobile input {
+  width: 210px;
+  height: 29px;
+  line-height: 29px;
+  border: 1px solid #eee;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+.c dl.member-order-list dd.edit-box form table td.phone .p-mobile input span {
+  margin: 0 20px;
+}
+.c dl.member-order-list dd.edit-box form table td.phone .p-telephone {
+  margin-left: 225px;
+  width: 350px;
+}
+.c dl.member-order-list dd.edit-box form table td.phone .p-telephone span {
+  margin: 0 20px;
+}
+.c dl.member-order-list dd.edit-box form table td.phone .p-telephone input {
+  width: 210px;
+  height: 29px;
+  line-height: 29px;
+  border: 1px solid #eee;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+.c dl.member-order-list dd.address-box {
+  margin-bottom: 20px;
+}
+.c dl.member-order-list dd.address-box table.common {
+  margin-top: 25px;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.c dl.member-order-list dd.address-box table.common th {
+  height: 46px;
+  text-align: center;
+  font-weight: 400;
+  border: 1px solid #e0e0e0;
+  color: #333;
+  font-size: 16px;
+}
+.c dl.member-order-list dd.address-box table.common td {
+  padding: 36px 25px;
+  vertical-align: middle;
+  border: 1px solid #e0e0e0;
+}
+.c dl.member-order-list dd.address-box table.common td span {
+  color: #008cd6;
+  word-break: break-all;
+  margin: 0;
+}
+.c dl.member-order-list dd.address-box table.common td a {
+  color: #008cd6;
+}
+.c dl.member-order-list dd.address-box table.common td button {
+  width: 88px;
+  height: 23px;
+  border: 0;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #008cd6;
+  cursor: pointer;
+}
+.c dl.member-order-list dd.address-box table.common td button.select-address {
+  color: #fff;
+  background-color: #008cd6;
+}
+div.no-address {
+  display: none;
+  margin-top: 25px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  padding: 150px 0 !important;
+  border: 1px solid #e0e0e0;
+  color: #666;
+}
+div.no-address img {
+  width: 154px;
+  height: 126px;
+  display: inline-block !important;
+  margin: 0 0 20px !important;
+  vertical-align: middle;
+}
+div.no-address span {
+  color: #888 !important;
+  display: block !important;
+  font-size: 14px;
+}
+/*# sourceMappingURL=my_address.css.map */

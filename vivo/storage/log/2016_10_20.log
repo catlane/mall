@@ -1,0 +1,78 @@
+[ 2016-10-20T02:21:30+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:21:40+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:22:09+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:22:10+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:22:10+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:22:11+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:22:11+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:22:11+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:22:44+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:22:58+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:23:28+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:23:29+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:23:29+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:23:29+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:23:30+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:23:30+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:23:30+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:24:20+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:24:20+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:25:02+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:25:04+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:25:05+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:25:43+08:00 ]EXCEPTION: Class web\home\controller\Home does not exist
+[ 2016-10-20T02:26:39+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:26:40+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:26:40+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:26:40+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:26:41+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:26:41+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:26:54+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:27:09+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:28:47+08:00 ]EXCEPTION: Method web\admin\controller\Login::__empty() does not exist
+[ 2016-10-20T02:29:18+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/common/__empty.php
+[ 2016-10-20T02:29:20+08:00 ]EXCEPTION: 模板不存在:./web/admin/view/common/__empty.php
+[ 2016-10-20T02:31:31+08:00 ]EXCEPTION: Method web\home\controller\Login::__empty() does not exist
+[ 2016-10-20T18:52:51+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM vivo_user_role ur JOIN vivo_role r ON ur.role_id = r.id  JOIN vivo_access a ON a.role_id=r.id  JOIN vivo_node n ON n.id = a.node_id WHERE ur.user_id=3 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'n.show' inconnu dans field list
+[ 2016-10-20T19:03:02+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM vivo_user_role ur JOIN vivo_role r ON ur.role_id = r.id  JOIN vivo_access a ON a.role_id=r.id  JOIN vivo_node n ON n.id = a.node_id WHERE ur.user_id=3 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'n.sort' inconnu dans order clause
+[ 2016-10-20T19:03:21+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM vivo_user_role ur JOIN vivo_role r ON ur.role_id = r.id  JOIN vivo_access a ON a.role_id=r.id  JOIN vivo_node n ON n.id = a.node_id WHERE ur.user_id=3 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'n.sort' inconnu dans order clause
+[ 2016-10-20T19:03:23+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM vivo_user_role ur JOIN vivo_role r ON ur.role_id = r.id  JOIN vivo_access a ON a.role_id=r.id  JOIN vivo_node n ON n.id = a.node_id WHERE ur.user_id=3 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'n.sort' inconnu dans order clause
+[ 2016-10-20T19:03:24+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM vivo_user_role ur JOIN vivo_role r ON ur.role_id = r.id  JOIN vivo_access a ON a.role_id=r.id  JOIN vivo_node n ON n.id = a.node_id WHERE ur.user_id=3 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'n.sort' inconnu dans order clause
+[ 2016-10-20T19:03:24+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM vivo_user_role ur JOIN vivo_role r ON ur.role_id = r.id  JOIN vivo_access a ON a.role_id=r.id  JOIN vivo_node n ON n.id = a.node_id WHERE ur.user_id=3 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'n.sort' inconnu dans order clause
+[ 2016-10-20T19:03:25+08:00 ]EXCEPTION: SELECT n.id,n.name,n.pid,n.level,n.title,n.show FROM vivo_user_role ur JOIN vivo_role r ON ur.role_id = r.id  JOIN vivo_access a ON a.role_id=r.id  JOIN vivo_node n ON n.id = a.node_id WHERE ur.user_id=3 AND n.status=1 AND r.status=1 GROUP BY a.node_id ORDER BY n.sort ASC ;BindParams:array (
+)42S22;1054;Champ 'n.sort' inconnu dans order clause
+[ 2016-10-20T21:38:29+08:00 ]EXCEPTION: INSERT INTO vivo_admin_user (`admin_user_account`,`admin_user_password`,`admin_user_regTime`) VALUES(?,?,?) ;BindParams:array (
+  1 => 'brands-add',
+  2 => '827ccb0eea8a706c4c34a16891f84e7b',
+  3 => 1476970709,
+)23000;1062;Duplicata du champ '' pour la clef 'admin_user_username_UNIQUE'
+[ 2016-10-20T21:39:26+08:00 ]EXCEPTION: INSERT INTO vivo_admin_user (`admin_user_account`,`admin_user_password`,`admin_user_regTime`) VALUES(?,?,?) ;BindParams:array (
+  1 => 'brandsAdd',
+  2 => '827ccb0eea8a706c4c34a16891f84e7b',
+  3 => 1476970766,
+)23000;1062;Duplicata du champ '' pour la clef 'admin_user_username_UNIQUE'
+[ 2016-10-20T21:40:34+08:00 ]EXCEPTION: INSERT INTO vivo_admin_user (`admin_user_account`,`admin_user_password`,`admin_user_regTime`) VALUES(?,?,?) ;BindParams:array (
+  1 => 'brandsAdd',
+  2 => '827ccb0eea8a706c4c34a16891f84e7b',
+  3 => 1476970834,
+)23000;1062;Duplicata du champ '' pour la clef 'admin_user_username_UNIQUE'
+[ 2016-10-20T21:40:59+08:00 ]EXCEPTION: INSERT INTO vivo_admin_user (`admin_user_account`,`admin_user_password`,`admin_user_regTime`) VALUES(?,?,?) ;BindParams:array (
+  1 => 'brands-add',
+  2 => '827ccb0eea8a706c4c34a16891f84e7b',
+  3 => 1476970859,
+)23000;1062;Duplicata du champ '' pour la clef 'admin_user_username_UNIQUE'
+[ 2016-10-20T21:41:04+08:00 ]EXCEPTION: INSERT INTO vivo_admin_user (`admin_user_account`,`admin_user_password`,`admin_user_regTime`) VALUES(?,?,?) ;BindParams:array (
+  1 => 'brands-add',
+  2 => '827ccb0eea8a706c4c34a16891f84e7b',
+  3 => 1476970864,
+)23000;1062;Duplicata du champ '' pour la clef 'admin_user_username_UNIQUE'
+[ 2016-10-20T21:41:32+08:00 ]EXCEPTION: INSERT INTO vivo_admin_user (`admin_user_account`,`admin_user_password`) VALUES(?,?) ;BindParams:array (
+  1 => 'brands-add',
+  2 => '827ccb0eea8a706c4c34a16891f84e7b',
+)23000;1062;Duplicata du champ '' pour la clef 'admin_user_username_UNIQUE'
